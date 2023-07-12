@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+body {
+    font-family: 'Barlow', sans-serif !important;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black !important;
+}
+
+.immap-bg {
+    background: #be2126 !important;
+    /* color: white !important; */
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.secondary-bg {
+    background: #e6e6e6 !important;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.no-border-top {
+    border-top: 0 !important;
+}
+
+.show-pre-line {
+    white-space: pre-line;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.minheight-5 {
+    height: 50px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.download-btn {
+    padding: 5px;
+    color: white;
+    background: #be2126;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-yes {
+    display: inline-block;
+    vertical-align: middle;
+}

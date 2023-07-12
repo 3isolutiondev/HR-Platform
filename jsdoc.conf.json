@@ -1,0 +1,35 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": [
+            "jsdoc",
+            "closure"
+        ]
+    },
+    "source": {
+        "include": [
+            "resources/js/components/Web"
+        ],
+        "exclude": [],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": [
+        "plugins/markdown",
+        "node_modules/better-docs/component",
+        "node_modules/better-docs/category"
+    ],
+    "templates": {
+        "better-docs": {
+            "name": "iMMAP Careers",
+            "logo": "../images/immap-career-logo.png",
+            "css": "../css/frontend-docs.css"
+        }
+    },
+    "opts": {
+        "template": "node_modules/better-docs",
+        "destination": "public/frontend-docs",
+        "recurse": true,
+        "readme": "README.md"
+    }
+}

@@ -1,0 +1,13 @@
+<?php
+
+return [
+    'IMMAP_EMAIL_TOKEN' => env('IMMAP_EMAIL_TOKEN'),
+    'IMMAP_EMAIL_REFRESH_TOKEN' => env('IMMAP_EMAIL_REFRESH_TOKEN'),
+    'TOKEN_EXPIRE' => env('TOKEN_EXPIRE'),
+    'CLIENT_ID' => env('CLIENT_ID'),
+    'CLIENT_SECRET' => env('CLIENT_SECRET'),
+    'REDIRECT_URI' => env('REDIRECT_URI'),
+    'URL_AUTHORIZE' => env('URL_AUTHORIZE'),
+    'URL_ACCESS_TOKEN' => env('URL_ACCESS_TOKEN'),
+    'SCOPES' => env('SCOPES'),
+];

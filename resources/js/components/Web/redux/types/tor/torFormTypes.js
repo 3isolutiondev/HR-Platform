@@ -1,0 +1,3 @@
+export const SET_TOR_FORM_DATA = 'SET_TOR_FORM_DATA';
+export const RESET_TOR_FORM = 'RESET_TOR_FORM';
+export const CHECK_ERROR_TOR_FORM = 'CHECK_ERROR_TOR_FORM';

@@ -1,0 +1,2 @@
+export const SET_ROSTER_STEPS = 'SET_ROSTER_STEPS';
+export const SET_ROSTER_DATA = 'SET_ROSTER_DATA';

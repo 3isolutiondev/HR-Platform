@@ -1,0 +1,2 @@
+export const ONCHANGE_PHONE = 'ONCHANGE_PHONE';
+export const SET_PHONE_LISTS = 'SET_PHONE_LISTS';

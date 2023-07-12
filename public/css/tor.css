@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+body {
+	font-family: 'Barlow', sans-serif;
+}
+.tor-title {
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 11pt;
+}
+.col-3 {
+	width: 29%;
+	display: inline-block;
+}
+.col-7 {
+	width: 70%;
+	display: inline-block;
+}
+.color-red {
+	color: #be2126;
+}
+.bold {
+	font-weight: bold;
+}
+.red-bar {
+	padding: 4px;
+	background: #be2126;
+}
+.no-text {
+	height: 3.5mm;
+}
+.org-container {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.width-100 {
+	width: 100%;
+	clear: both;
+}
+.width-70 {
+	width: 70%;
+}
+.width-30 {
+	width: 30%;
+}
+.margin-top-5 {
+	margin-top: 6mm;
+}
+.margin-bottom-5 {
+	margin-bottom: 5mm;
+}
+.sub-section {
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+}
+.ql-container,
+.ql-editor {
+	height: auto;
+	page-break-inside: always;
+	page-break-after: always;
+	page-break-before: always;
+}
+p {
+	margin-bottom: 2mm;
+	margin-top: 2mm;
+}
+.ql-editor ul {
+	margin-top: -1mm;
+	padding-top: 0;
+}
+/* li.ql-indent-1{margin-left: 4.5mm;} */
+/* .ql-container .ql-editor ul li {page-break-inside: always;} */
+/* .footer{text-align: center; width: 20%; height: 50px;} */
+/* .footer{ margin-left: -20%; width: 80mm; position: relative; display: block;} */
+.footer-container {
+	text-align: center;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.footer-container p {
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 1mm;
+}

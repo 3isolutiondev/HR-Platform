@@ -175,7 +175,7 @@ class RequestContractForm extends Component {
       position,
       immap_office_id: immap_office.value,
     };
-    
+
     if (isSend) {
       data.id = id;
     }
@@ -514,7 +514,7 @@ class RequestContractForm extends Component {
               </Grid>
               <Grid item xs={12} sm={4}>
 							<SelectField
-								label="iMMAP Office *"
+								label="3iSolution Office *"
 								options={immap_offices}
 								value={immap_office}
 								onChange={this.selectOnChange}

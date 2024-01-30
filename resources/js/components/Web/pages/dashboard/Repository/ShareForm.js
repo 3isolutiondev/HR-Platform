@@ -159,7 +159,7 @@ class ShareForm extends Component {
 		const { isEdit, immapoffice, isLoading } = this.state;
 		let textall = (
 			<div>
-				<span>All iMMAPers </span>
+				<span>All Consultants </span>
 				<b>(will be sent to all@organization.org)</b>
 			</div>
 		);

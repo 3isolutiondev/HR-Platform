@@ -90,7 +90,7 @@ class ImmapOffices extends Component {
 					}
 				},
 				{
-					name: 'iMMAP HQ',
+					name: '3iSolution HQ',
 					options: {
 						filter: false,
 						sort: false

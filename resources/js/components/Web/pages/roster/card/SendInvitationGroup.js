@@ -125,11 +125,11 @@ class SendInvitationGroup extends Component {
     if (
       !isEmpty(interview_timezone) &&
       !isEmpty(interview_date)
-    
+
     ) {
       let { selected_step, roster_process, profiles } = this.props;
       let { has_interview, id, order } = selected_step;
- 
+
       const additionalData = {};
       additionalData.commentText = this.state.commentText;
 
@@ -224,7 +224,7 @@ class SendInvitationGroup extends Component {
       immaper_invite
     } = this.state;
 
-   
+
     if (interview_type === 1) {
       if (isEmpty(interview_address)) {
         errors.interview_address = "Address is required";
@@ -256,7 +256,7 @@ class SendInvitationGroup extends Component {
           <DialogTitle>{"Confirmation"}</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
-              {`Are you sure you want to invite those ${profiles.length} applicants to 
+              {`Are you sure you want to invite those ${profiles.length} applicants to
               ${this.props.selected_step.step}?`}
             </DialogContentText>
             <SelectField
@@ -339,7 +339,7 @@ class SendInvitationGroup extends Component {
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
               You will be redirected to Microsoft Outlook in order to login with
-              your iMMAP account. Please confirm the invitation after being
+              your 3iSolution account. Please confirm the invitation after being
               authenticated.
             </DialogContentText>
           </DialogContent>

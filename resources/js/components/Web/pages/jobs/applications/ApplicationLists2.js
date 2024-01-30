@@ -534,7 +534,7 @@ ApplicationLists.propTypes = {
    */
   addFlashMessage: PropTypes.func.isRequired,
   /**
-   * partOfImmapFamily is a prop containing data of the logged in user is part of iMMAP or not
+   * partOfImmapFamily is a prop containing data of the logged in user is part of 3iSolution or not
    */
   partOfImmapFamily: PropTypes.bool
 }

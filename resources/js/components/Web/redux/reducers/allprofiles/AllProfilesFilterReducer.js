@@ -29,7 +29,7 @@ const initialState = {
         { value: 'do_not_want_specify', label:'Do not want to specify' },
         { value: 'other', label: 'Other' }
     ],
-    immaper_filter: [{ value: 'is_immaper', label: 'iMMAPer' }, { value: 'not_immaper', label: 'Not iMMAPer' }],
+    immaper_filter: [{ value: 'is_immaper', label: 'Consultant' }, { value: 'not_immaper', label: 'Not Consultant' }],
     available_filter: [
         { value: 'available', label: 'Available' },
         { value: 'not_available', label: 'Not Available' }

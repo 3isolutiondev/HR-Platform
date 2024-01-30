@@ -575,7 +575,7 @@ class P11 extends React.Component {
             this.finishSubmit();
           }}
           title="Submit Data"
-          text={'Are you sure to submit your data to iMMAP?'}
+          text={'Are you sure to submit your data to 3iSolution?'}
           closeText="Cancel"
           AgreeText="Yes"
         />

@@ -214,7 +214,7 @@ class PreviouslySubmittedApplicationForUnForm extends Component {
 							this.props.updateList();
 							this.props.addFlashMessage({
 								type: 'success',
-								text: 'Your experience working with iMMAP has been saved'
+								text: 'Your experience working with 3iSolution has been saved'
 							});
 							this.props.getP11();
 							if (this.props.getProfileLastUpdate) {
@@ -365,11 +365,11 @@ class PreviouslySubmittedApplicationForUnForm extends Component {
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<SelectField
-								label="iMMAP Office *"
+								label="3iSolution Office *"
 								options={p11ImmapOffices}
 								value={immap_office}
 								onChange={this.selectOnChange}
-								placeholder="iMMAP Office"
+								placeholder="3iSolution Office"
 								isMulti={false}
 								name="immap_office"
 								error={errors.immap_office}

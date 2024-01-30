@@ -563,7 +563,7 @@ class RoleFormV2 extends React.Component {
             )}
 						<Grid item xs={12}>
 							<FormControl error={!isEmpty(errors.immap_offices)}>
-								<FormLabel component="legend">iMMAP Offices</FormLabel>
+								<FormLabel component="legend">3iSolution Offices</FormLabel>
 								<FormGroup>
 									<Grid container>
 										<Grid item xs={12}>
@@ -581,7 +581,7 @@ class RoleFormV2 extends React.Component {
 															)}
 													/>
 												}
-												label="All iMMAP Office"
+												label="All 3iSolution Office"
 											/>
 										</Grid>
 										{allImmapOffices.map((immap_office, index) => {

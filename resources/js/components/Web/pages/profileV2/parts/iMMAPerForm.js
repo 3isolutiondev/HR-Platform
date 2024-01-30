@@ -53,7 +53,7 @@ class iMMAPerForm extends Component {
 				maxWidth="lg"
 				fullWidth
 			>
-				<DialogTitle>Already iMMAPer ?</DialogTitle>
+				<DialogTitle>Already Consultant ?</DialogTitle>
 				<DialogContent>
 					<Grid container spacing={16}>
 						<Grid item xs={12} sm={4}>

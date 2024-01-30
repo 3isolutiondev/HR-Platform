@@ -36,8 +36,8 @@ const menu = [
 		props: 'legalStep',
 		name: 'legal_step_changing_present_nationality_explanation'
 	},
-	{ title: 'Relatives Employed by iMMAP', props: 'relativeEmployed', name: 'relatives_employed' },
-	{ title: 'Previously Worked with iMMAP', props: 'submittedAplicationUn', name: 'previously_submitted_for_un' },
+	{ title: 'Relatives Employed by 3iSolution', props: 'relativeEmployed', name: 'relatives_employed' },
+	{ title: 'Previously Worked with 3iSolution', props: 'submittedAplicationUn', name: 'previously_submitted_for_un' },
 	{ title: 'Permanent Civil Servant', props: 'permanentCivilServants', name: 'permanent_civil_servants' },
 	{ title: 'Reference Lists', props: 'references', name: 'references' },
 	{ title: 'Facts, Regarding Residence Outside Country', props: 'relevanFact', name: 'relevant_facts' }

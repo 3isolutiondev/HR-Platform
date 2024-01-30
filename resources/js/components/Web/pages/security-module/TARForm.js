@@ -510,7 +510,7 @@ class TARForm extends React.Component {
               <div className={classes.detailBox}>
                 <Typography variant="h6" color="primary" className={classes.detailTitle}>DETAILS</Typography>
                 <hr className={classes.primaryBorder} style={{ marginBottom: '16px' }} />
-                <Typography variant="subtitle1" color="secondary">iMMAPer : {immaper_name}</Typography>
+                <Typography variant="subtitle1" color="secondary">Consultant : {immaper_name}</Typography>
                 <Typography variant="subtitle1" color="secondary">Country Office : {immaper_country_office}</Typography>
                 <Typography variant="subtitle1" color="secondary">Line Manager : {immaper_line_manager}</Typography>
                 <Typography variant="subtitle1" color="secondary">Position : {immaper_position}</Typography>
@@ -1101,7 +1101,6 @@ const styles = (theme) => ({
     color: '#696969',
     fontWeight: 'bold',
     fontFamily: 'Barlow',
-    fontWeight: 'none'
   }
 })
 

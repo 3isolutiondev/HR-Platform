@@ -116,7 +116,7 @@ class SecurityFilter extends React.Component {
             <TextField
               id="search"
               name="search"
-              label="Search iMMAPer"
+              label="Search Consultant"
               fullWidth
               value={searchTemp}
               onChange={(e) => this.handleSearch(e)}

@@ -100,7 +100,6 @@ class ContractHistoryModal extends Component {
                         <TableHead>
                             <TableRow>
                                 <CustomTableCell>iMMAP Office</CustomTableCell>
-                                <CustomTableCell>iMMAP Inc</CustomTableCell>
                                 <CustomTableCell>iMMAP France</CustomTableCell>
                                 <CustomTableCell>Project Code</CustomTableCell>
                                 <CustomTableCell>iMMAP Email</CustomTableCell>
@@ -126,7 +125,6 @@ class ContractHistoryModal extends Component {
                                         {history.immap_office.city}
                                     </CustomTableCell>
                                     <CustomTableCell>{history.is_immap_inc ? 'Yes' : 'No'}</CustomTableCell>
-                                    <CustomTableCell>{history.is_immap_france ? 'Yes' : 'No'}</CustomTableCell>
                                     <CustomTableCell>{history.project_code}</CustomTableCell>
                                     <CustomTableCell>{history.immap_email}</CustomTableCell>
                                     <CustomTableCell>{history.job_title}</CustomTableCell>

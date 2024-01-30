@@ -194,7 +194,7 @@ class UserForm extends Component {
 									variant="contained"
 									color="primary"
 								>
-									Send iMMAPer Verification <Send className={classes.addSmallMarginLeft} />{' '}
+									Send Consultant Verification <Send className={classes.addSmallMarginLeft} />{' '}
 									{mail_loading && (
 										<CircularProgress className={classes.loading} size={22} thickness={5} />
 									)}
@@ -345,7 +345,7 @@ class UserForm extends Component {
 						{isEdit &&
 						change_password === 1 && (
 							<Grid item xs={12} sm={6}>
-								
+
 							</Grid>
 						)}
 						<Grid item xs={12}>

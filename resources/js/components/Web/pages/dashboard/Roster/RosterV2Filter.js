@@ -166,7 +166,7 @@ class RosterV2Filter extends Component {
 									fullWidth
 									error={!isEmpty(errors.job_status) ? true : false}
 								>
-									<FormLabel>iMMAPer</FormLabel>
+									<FormLabel>Consultant</FormLabel>
 									<FormGroup row>
 										{immaper_filter.map((immaperFilter) => (
 											<FormControlLabel
@@ -391,7 +391,7 @@ class RosterV2Filter extends Component {
 									parameterVariable="skillParameters"
 									usingDialog={true}
 									smallBox={true}
-									
+
 								/>
 							</Grid>
 							<Grid item xs={12} sm={12} md={4} lg={4} xl={4}>

@@ -412,7 +412,7 @@ class ToRForm extends Component {
 					{
 						sub_section: 'Organization',
 						sub_section_content:
-							'<p><em>iMMAP is an international nongovernmental organisation that provides information management services to humanitarian and development organizations. Through information management, we help our partners target assistance to the world’s most vulnerable populations. Our core philosophy is that better data leads to better decisions and that better decisions lead to better outcomes. iMMAP’s critical support to information value chains helps to solve operational and strategic challenges of our partners in both emergency and development contexts by enabling evidence-based decision-making for better outcomes.</em></p>',
+							'<p><em>3iSolution is an international nongovernmental organisation that provides information management services to humanitarian and development organizations. Through information management, we help our partners target assistance to the world’s most vulnerable populations. Our core philosophy is that better data leads to better decisions and that better decisions lead to better outcomes. 3iSolution’s critical support to information value chains helps to solve operational and strategic challenges of our partners in both emergency and development contexts by enabling evidence-based decision-making for better outcomes.</em></p>',
 						level: 0
 					},
 					{
@@ -869,7 +869,7 @@ class ToRForm extends Component {
 								</FormControl>
 							</Grid>
 							<Grid item xs={12} className={classes.hq}>
-								<Typography variant="caption">Choose iMMAP Headquarter</Typography>
+								<Typography variant="caption">Choose 3iSolution Headquarter</Typography>
 								<Grid container spacing={16}>
 									<Grid item xs={12} sm={6} className={classes.hq}>
 										<FormControl margin="none" error={!isEmpty(errors.is_immap_inc)}>
@@ -883,7 +883,7 @@ class ToRForm extends Component {
 														className={classes.check}
 													/>
 												}
-												label="iMMAP inc."
+												label="3iSolution"
 											/>
 											{!isEmpty(errors.is_immap_inc) ? (
 												<FormHelperText className={classes.noMarginTop}>
@@ -920,7 +920,7 @@ class ToRForm extends Component {
 								<FormControlLabel
 									className={classes.switch}
 									labelPlacement="start"
-									label="Shared Cost Allocation Between iMMAP HQ"
+									label="Shared Cost Allocation Between 3iSolution HQ"
 									control={
 										<Switch
 											id="is_shared"
@@ -939,7 +939,7 @@ class ToRForm extends Component {
 								<Grid item xs={12} sm={6}>
 									<TextField
 										id="hq_us"
-										label="iMMAP inc. (%)"
+										label="3iSolution (%)"
 										margin="none"
 										fullWidth
 										type="number"
@@ -971,11 +971,11 @@ class ToRForm extends Component {
 							{ (jobStandard.sbp_recruitment_campaign == "no" && jobStandard.under_sbp_program == "no") &&
 								<Grid item xs={12} sm={6}>
 									<SelectField
-										label="iMMAP Office *"
+										label="3iSolution Office *"
 										options={immap_offices}
 										value={immap_office}
 										onChange={this.selectOnChange}
-										placeholder="Select iMMAP Office"
+										placeholder="Select 3iSolution Office"
 										isMulti={false}
 										name="immap_office"
 										error={errors.immap_office}

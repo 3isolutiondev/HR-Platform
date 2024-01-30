@@ -1,4 +1,4 @@
-export const APP_NAME = 'iMMAP Careers';
+export const APP_NAME = '3iSolution Careers';
 export const maxFileSize = 2097152; // in bytes
 export const p11UpdateCVURL = '/api/p11-update-cv';
 export const p11DeleteCVURL = '/api/p11-delete-cv';

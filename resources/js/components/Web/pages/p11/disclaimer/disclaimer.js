@@ -64,16 +64,16 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="h6" component="h6" color="primary">
-				iMMAP Careers
+				3iSolution Careers
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
 				As an Information Management organization, iMMAP is always looking for new talents to welcome into the
-				IM Family. Therefore, we developed iMMAP Careers, an online tool totally built in house thanks to iMMAP
+				IM Family. Therefore, we developed 3iSolution Careers, an online tool totally built in house thanks to iMMAP
 				personnel. This platform aims to enhance iMMAP operationality and efficiency when it comes to deployment
 				and personnel follow-up. An important part of its purpose is to facilitate the recruitment, hiring and
 				onboarding processes but also to invite people to learn more about iMMAP and the opportunities that we
-				offer. By registering on iMMAP Careers, you will be able to create your own profile, check job vacancies
+				offer. By registering on 3iSolution Careers, you will be able to create your own profile, check job vacancies
 				and apply for our Roster.
 			</Typography>
 			<br />
@@ -93,7 +93,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				In the course of iMMAP Careers, we may collect the following types of information about you as a
+				In the course of 3iSolution Careers, we may collect the following types of information about you as a
 				potential candidate: name, telephone number, e-mail address, resume information (employment history,
 				education, professional credentials, memberships in professional organizations, skills, etc.),
 				citizenship, information from former employers and other references, and additional information to the
@@ -104,7 +104,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				We may use this information to ensure that iMMAP Careers conforms with legal requirements, including
+				We may use this information to ensure that 3iSolution Careers conforms with legal requirements, including
 				equal opportunity laws. In addition to this purpose, the main use of this information will be to enable
 				us to offer you job opportunities matching your profile or filtering users on professional criteria in
 				order to provide a recruitment service always tailored to our users’ needs as well as to iMMAP needs.
@@ -118,7 +118,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				When providing iMMAP Careers we may also obtain Personal Information about you from referrals, public
+				When providing 3iSolution Careers we may also obtain Personal Information about you from referrals, public
 				databases, licensed databases, and social media platforms. The information we collect from these third
 				parties includes information about the identity of potential candidates (e.g., an individual’s name,
 				address, telephone number, e-mail address), information about their background and qualifications
@@ -131,14 +131,14 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				All the data you will provide on iMMAP Careers will remain at iMMAP for internal use only and you will
+				All the data you will provide on 3iSolution Careers will remain at iMMAP for internal use only and you will
 				have the opportunity to ask for the complete deletion of it.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
 				iMMAP will keep your details up to 5 years starting from the moment you enter the data; you edit your
-				profile or apply for a position through iMMAP Careers. However, deletion of the entirety of your details
-				is possible by contacting the iMMAP Careers administrator by email at immapcareers@organization.org.
+				profile or apply for a position through 3iSolution Careers. However, deletion of the entirety of your details
+				is possible by contacting the 3iSolution Careers administrator by email at immapcareers@organization.org.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">

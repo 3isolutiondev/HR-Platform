@@ -25,9 +25,9 @@ class Mail extends Component {
 			to: [],
 			cc: [],
 			bcc: [],
-			subject: 'Finalization of your iMMAP Careers profile',
+			subject: 'Finalization of your 3iSolution Careers profile',
 			body:
-				'<h1>Dear User,</h1><p><br/>Your profile on iMMAP Careers is still marked as incomplete.<br/></p><p>Do not forget to complete your profile through the registration process to be able apply for our job vacancies or the iMMAP Talent Pool.<br/></p><p>Please provide your remaining details on the <b>profile section</b> of iMMAP Careers:</p><p>[profile_btn]</p><p>We look forward to working with you soon. <br/><br/></p><p>Thank you and best regards,<br/>iMMAP Careers</p>',
+				'<h1>Dear User,</h1><p><br/>Your profile on 3iSolution Careers is still marked as incomplete.<br/></p><p>Do not forget to complete your profile through the registration process to be able apply for our job vacancies or the iMMAP Talent Pool.<br/></p><p>Please provide your remaining details on the <b>profile section</b> of 3iSolution Careers:</p><p>[profile_btn]</p><p>We look forward to working with you soon. <br/><br/></p><p>Thank you and best regards,<br/>3iSolution Careers</p>',
 			url: '/api/send-email',
 			isValid: false,
 			errors: {},

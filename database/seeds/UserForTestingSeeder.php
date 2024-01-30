@@ -643,7 +643,7 @@ class UserForTestingSeeder extends Seeder
             'is_immaper' => 1,
             'is_immap_inc' => 1,
             'is_immap_france' => 0,
-            'job_title' => 'iMMAP Careers Admin',
+            'job_title' => '3iSolution Careers Admin',
             'duty_station' => "Washington DC",
             'line_manager' => 'Senior Technical Advisor',
             'start_of_current_contract' => '2020-01-01',

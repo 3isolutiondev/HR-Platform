@@ -856,9 +856,6 @@ const Routes = () => (
     {/* Roster  */}
     <PermissionRoute exact path="/roster" component={Roster} permission="Index Roster" isIMMAPer={true}/>
 
-     {/* Surge Overview  */}
-     <PermissionRoute exact path="/surge-roster-deployment-dashboard" component={SurgeRosterDeploymentDashboard} permission="P11 Access" isIMMAPer={true}/>
-
     {/* All Profiles  */}
     {/* All Profiles / Talent Pool  */}
     <PermissionRoute

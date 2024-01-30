@@ -28,13 +28,7 @@ import { setShowCookieConsent } from '../redux/actions/common/CookieConsentActio
 // whoWeAre data (it will show on footer of the page)
 const whoWeAre = [
 	{ title: 'Home', link: '/', external: false },
-	{ title: 'Contact Us', link: 'https://mywebsite.org/contact-us/', external: true },
-	{ title: 'Locations', link: 'https://mywebsite.org/where-we-work/', external: true },
-	{ title: 'History', link: 'https://mywebsite.org/history-timeline/', external: true },
-	{ title: 'Team', link: 'https://mywebsite.org/meet-the-team/', external: true },
-	{ title: 'Careers', link: 'https://mywebsite.org/careers/', external: true },
-	{ title: 'Photo Credits', link: 'https://mywebsite.org/credits/', external: true },
-	{ title: 'Cookie Policy', link: 'none', dialog: true}
+	{ title: 'Website', link: 'https://3isolution.org/', external: true },
 ];
 
 // whatWeDo data (it will show on footer of the page)
@@ -73,7 +67,7 @@ const Footer = ({ classes, setShowCookieConsent }) => {
 						<Grid container spacing={0}>
 							<Grid item xs={12} sm={6}>
 								<Typography variant="body2" className={classes.title}>
-									Who we are
+									About 3iSolution
 								</Typography>
 								{whoWeAre.map((dt, index) => (
 									<Typography key={index} variant="body2" className={classes.menu}>
@@ -94,37 +88,15 @@ const Footer = ({ classes, setShowCookieConsent }) => {
 									</Typography>
 								))}
 							</Grid>
-							<Grid item xs={12} sm={6}>
-								<Typography variant="body2" className={classes.title}>
-									What we do
-								</Typography>
-								{whatWeDo.map((dt, index) => (
-									<Typography key={index} variant="body2" className={classes.menu}>
-										{dt.external ? (
-											<a href={`${dt.link}`} className={classes.linked}>
-												{dt.title}
-											</a>
-										) : (
-											<Link to={dt.link} className={classes.linked}>
-												{dt.title}
-											</Link>
-										)}
-									</Typography>
-								))}
-							</Grid>
 						</Grid>
 					</Grid>
 					<Grid item xs={12} sm={12} md={4} lg={4}>
 						<Typography variant="body2" className={classes.title}>
-							About iMMAP
-						</Typography>
-
-						<Typography variant="body2" className={classes.iMMAPDesc}>
-							iMMAP is an international not-for-profit organization
+							3iSolution Social Media
 						</Typography>
 						<Grid item xs={12} className={classes.socMedContainer}>
 							<a
-								href={`https://www.facebook.com/immap.org/`}
+								href={`https://www.facebook.com/profile.php?id=61553144467327`}
 								className={classnames(classes.socialMedia, classes.facebookHover)}
 							>
 								<FontAwesomeIcon
@@ -134,7 +106,7 @@ const Footer = ({ classes, setShowCookieConsent }) => {
 								/>
 							</a>
 							<a
-								href={`https://twitter.com/iMMAP_org/`}
+								href={`https://twitter.com/3iSolution3iS`}
 								className={classnames(classes.socialMedia, classes.twitterHover)}
 							>
 								<FontAwesomeIcon
@@ -144,17 +116,7 @@ const Footer = ({ classes, setShowCookieConsent }) => {
 								/>
 							</a>
 							<a
-								href={`https://www.youtube.com/channel/UCZgOvNTt3HbztQ60tOq-d7g/`}
-								className={classnames(classes.socialMedia, classes.youtubeHover)}
-							>
-								<FontAwesomeIcon
-									icon={faYoutube}
-									size="xs"
-									className={classnames(classes.icon, classes.youtube)}
-								/>
-							</a>
-							<a
-								href={`https://www.linkedin.com/company/immap`}
+								href={`https://www.linkedin.com/company/3isolution/`}
 								className={classnames(classes.socialMedia, classes.linkedinHover)}
 							>
 								<FontAwesomeIcon
@@ -202,7 +164,7 @@ const mapDispatchToProps = {
   setShowCookieConsent
 }
 
-const heightDefault = 50;
+const heightDefault = 80;
 
 /**
  * set up styles for this component
@@ -260,9 +222,9 @@ const styles = (theme) => ({
 	imagesWorld: {
 		background: 'url(' + immap + ')',
 		height: heightDefault + 'px',
-		width: '250px',
 		position: 'relative',
-		backgroundSize: 'cover',
+		backgroundSize: 'contain',
+		"background-repeat": 'no-repeat',
 		[theme.breakpoints.down('sm')]: {
 			margin: '0 auto'
 		}

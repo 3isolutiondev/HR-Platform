@@ -48,7 +48,7 @@ class VerifyEmail extends VerifyEmailBase
             // ->from([ 'name' => 'iMMAP Career', 'address' => config('app.')])
             // ->subject('Verify Email Address')
             // ->greeting('Dear ' . $this->fullName . '!')
-            // ->line('Thank you for registering on iMMAP Careers.')
+            // ->line('Thank you for registering on 3iSolution Careers.')
             // ->line('Do not forget to complete your profile through the registration process to be able apply for our job vacancies or the iMMAP Roster.')
             // // ->line('We offer you great opportunity to work with us')
             // ->line(new HtmlString('Please verify your account by clicking on the button below and <b>complete the 11-step profile.</b>'))
@@ -61,7 +61,7 @@ class VerifyEmail extends VerifyEmailBase
             //new
             ->subject('Verify Email Address')
             ->greeting('Dear ' . $this->fullName . '!')
-            ->line('Thank you for joining iMMAP Careers.')
+            ->line('Thank you for joining 3iSolution Careers.')
             ->line('We offer great opportunities to join our diverse workforce.')
             ->line('Please verify your account by clicking on the button below.')
             ->action('Verify Email Address', $url)

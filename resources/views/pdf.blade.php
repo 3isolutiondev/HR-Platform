@@ -30,7 +30,7 @@
                 padding-top: 4px;
                 padding-bottom: 4px;
                 width: 100%;
-                background: #be2126;
+                background: #043C6E;
                 color: white;
             }
             *, *:after, *:before {

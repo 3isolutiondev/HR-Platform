@@ -1,13 +1,13 @@
 
-## iMMAP HR Roster
+## 3iSolution HR Roster
  
 ### About
  
-Welcome to iMMAP HR Roster, also known as iMMAP Careers. This source code represents the website where highly skilled information management officers (IMOs) can register and apply to help organizations improve the quality, timeliness, use, and sharing of critical humanitarian response data and information.
+Welcome to 3iSolution HR Roster, also known as 3iSolution Careers. This source code represents the website where highly skilled information management officers (IMOs) can register and apply to help organizations improve the quality, timeliness, use, and sharing of critical humanitarian response data and information.
 
 The website manages and maintains a roster of rapidly deployable information management officers and other experts who provide surge capacity support in emergency operations.
 
-Moreover, this website extends its capabilities by providing features for internal iMMAP workers, such as job applications and travelling registrations.
+Moreover, this website extends its capabilities by providing features for internal 3iSolution workers, such as job applications and travelling registrations.
 
 ### Installation
  
@@ -50,7 +50,7 @@ Moreover, this website extends its capabilities by providing features for intern
 
 - **Create** a Mailtrap email address at https://mailtrap.io to test and debug the site's email notifications. The Mailtrap's SMTP credentials will be added on the `.env` file.
 
-- **Clone** the HR-Roster project: `git clone https://github.com/iMMAP/HR-Roster.git`
+- **Clone** the HR-Roster project: `git clone https://github.com/3isolutiondev/HR-Platform`
 
 - Open your terminal and go to the HR-Roster **folder**: `cd HR-Roster`
 
@@ -58,7 +58,7 @@ Moreover, this website extends its capabilities by providing features for intern
 
   - Find a sample `.env` file at `./HR-Roster/.env.example`
 
-- Use the **database file** located at `database/dev-db/immap_careers_dev_db.sql` to load sample data. 
+- Use the **database file** located at `database/dev-db/careers_dev_db.sql` to load sample data. 
 
 - **Run** the following commands from your terminal (HR-Roster folder) in order to **build** and run the site:
 

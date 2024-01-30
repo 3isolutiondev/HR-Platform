@@ -14,7 +14,7 @@ During the call, you will be in speaking with:
 <b>{{ $hr_job_title }}, {{ $hr_manager }}</b>.
 <br/>
 
-Should the interview be completed satisfactory, iMMAP will check the references based on the contacts you entered in your profile on iMMAP Careers.
+Should the interview be completed satisfactory, iMMAP will check the references based on the contacts you entered in your profile on 3iSolution Careers.
 
 After this process, you will be informed whether you are officially part of the {{ $roster_process_name }}.
 

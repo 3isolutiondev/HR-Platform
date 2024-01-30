@@ -25,18 +25,10 @@ const OfficeAddress = ({ classes }) => (
 	<div className={classes.officeAddressRow}>
 		<div className={classes.officeAddressContainer}>
 			<Grid container spacing={16}>
-				<Grid item xs={12} md={4} lg={4}>
+				<Grid item xs={12} md={6} lg={6}>
 					<div className={classes.imagesWorld} />
 				</Grid>
-				<Grid item xs={12} md={4} lg={4}>
-					<Typography variant="body1" className={classes.copyright}>
-						Headquarters Washington office
-					</Typography>
-					<Typography variant="body2" className={classes.subTitle}>
-						RRB/ITC 1300 Pennsylvania Avenue NW Suite 470 Washington, D.C. 20004 USA
-					</Typography>
-				</Grid>
-				<Grid item xs={12} md={4} lg={4}>
+				<Grid item xs={12} md={6} lg={6}>
 					<Typography variant="body1" className={classes.copyright}>
 						Headquarters Marseille office
 					</Typography>

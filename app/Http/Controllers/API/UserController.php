@@ -668,7 +668,7 @@ class UserController extends Controller
         // $total = $this->model::get()->count();
         // $p11_complete = $this->model::where('p11Completed', 1)->count();
         // $p11_not_complete = $this->model::where('p11Completed', 0)->count();
-        // $color = ['#D50000', '#27AE60', '#be2126'];
+        // $color = ['#D50000', '#27AE60', '#043C6E'];
         // $data['data'] = [$total, $p11_complete, $p11_not_complete];
         // $data['backgroundColor'] = $color;
         // $data['hoverBackgroundColor'] = $color;
@@ -681,7 +681,7 @@ class UserController extends Controller
         // return response()->success(__('crud.success.default'), $result);
         $p11_complete = $this->model::where('p11Completed', 1)->count();
         $p11_not_complete = $this->model::where('p11Completed', 0)->count();
-        $color = ['#27AE60', '#be2126'];
+        $color = ['#27AE60', '#043C6E'];
         $data['data'] = [$p11_complete, $p11_not_complete];
         $data['backgroundColor'] = $color;
         $data['hoverBackgroundColor'] = $color;

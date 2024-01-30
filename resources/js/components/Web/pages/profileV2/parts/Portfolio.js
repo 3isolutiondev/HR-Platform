@@ -380,7 +380,7 @@ const styles = (theme) => ({
 		right: theme.spacing.unit * -1,
 		top: theme.spacing.unit * -1,
 		'&:hover': {
-			backgroundColor: '#be2126'
+			backgroundColor: '#043C6E'
 		},
 		// '&:hover $iconAdd': {
 		// 	color: 'white'

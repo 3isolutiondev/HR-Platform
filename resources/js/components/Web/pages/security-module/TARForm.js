@@ -431,8 +431,8 @@ class TARForm extends React.Component {
               this.props.addFlashMessage({
                 type: 'success',
                 text: res.data.message
-              });    
-              this.checkInConfirmation();      
+              });
+              this.checkInConfirmation();
             }).catch((err) => {
               this.props.onChange('isLoading', false)
               this.props.addFlashMessage({
@@ -653,7 +653,7 @@ class TARForm extends React.Component {
                   <a href={securityLinkRiskLevels.link} className={classes.linked} target="_blank">
                 {securityLinkRiskLevels.title}
 								</a>
-              </Grid> 
+              </Grid>
               <Grid item xs={12}>
                 <SelectField
                   label="Select Risk Level *"
@@ -822,7 +822,7 @@ class TARForm extends React.Component {
                           disabled={status == "approved" || securityView}
                         />
                       }
-                      label="Check-in on arrival via iMMAP Careers"
+                      label="Check-in on arrival via 3iSolution Careers"
                     />
                   </FormControl>
                   <FormControl margin="none" error={!isEmpty(errors.security_measure)}>

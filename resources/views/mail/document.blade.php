@@ -1,7 +1,7 @@
 @component('mail::message')
 <h1>Dear Colleagues</h1>
 
-Please be informed that the new iMMAP’s <b>{{ $document['name'] }}</b> is now available on iMMAP Careers.
+Please be informed that the new iMMAP’s <b>{{ $document['name'] }}</b> is now available on 3iSolution Careers.
 
 @component('mail::button', ['url'=>$document['download_url']])
 {{ $document['name'] }}

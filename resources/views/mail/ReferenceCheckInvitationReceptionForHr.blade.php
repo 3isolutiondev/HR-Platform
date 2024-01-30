@@ -9,5 +9,5 @@ This document is available under Reference Checks step for the {{$title}} recrui
 
 Best Regards,</br>
 
-iMMAP Careers
+3iSolution Careers
 @endcomponent

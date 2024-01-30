@@ -8,7 +8,7 @@ return [
         |--------------------------------------------------------------------------
         */
 
-        'title' => 'iMMAP Careers',
+        'title' => '3iSolution Careers',
     ],
 
     'routes' => [

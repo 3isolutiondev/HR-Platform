@@ -52,7 +52,7 @@
         <table class="table table-bordered table-sm">
             <tbody>
                 <tr class="immap-bg"><td colspan="4" class="text-white">PART 2: MISSION DETAILS</td></tr>
-                <tr>    
+                <tr>
                     <td colspan="2"><b>Transportation Type:</b></td>
                     @php
                         if ($mrf->transportation_type == 'air-travel') {
@@ -92,10 +92,10 @@
                       @else
                         @if($key == 0)
                             <tr class="secondary-bg text-center"><td colspan="4">OUTBOUND TRIP</td></tr>
-                         @else   
+                         @else
                             <tr class="secondary-bg text-center"><td colspan="4">RETURN TRIP</td></tr>
                          @endif
-                      @endif  
+                      @endif
                     @else
                       @if($countFinalOutBoundTrip == 0)
                         <tr class="secondary-bg text-center"><td colspan="4">OUTBOUND TRIP {{ $key + 1 }}</td></tr>
@@ -326,7 +326,7 @@
                         <td colspan="2"><b>Security Measures Required:</b></td>
                         <td colspan="2" class="show-pre-line">
                             @if($mrf->security_measure_email == 1 && $mrf->security_measure_smart24 == 1 && $mrf->security_measure_immap_careers == 1)
-                                Check-in on arrival via email , Mobile App and iMMAP Careers
+                                Check-in on arrival via email , Mobile App and 3iSolution Careers
                             @elseif($mrf->security_measure_email == 0 && $mrf->security_measure_smart24 == 0 && $mrf->security_measure_immap_careers == 0)
                                 None
                             @else
@@ -337,8 +337,8 @@
                                     Check-in on arrival via Mobile App
                                 @endif
                                 @if($mrf->security_measure_immap_careers == 1)
-                                    Check-in on arrival via iMMAP Careers
-                                @endif       
+                                    Check-in on arrival via 3iSolution Careers
+                                @endif
                             @endif
                         </td>
                     </tr>

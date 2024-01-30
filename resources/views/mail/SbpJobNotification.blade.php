@@ -19,7 +19,7 @@ If you are interested in this deployment kindly ensure that:
 
 <li>Your profile and CV on iMMAP Career are up-to-date, including your current location and;</li>
 
-<li>You confirm the earliest date you can depart if selected for the assignment on iMMAP Careers.</li>
+<li>You confirm the earliest date you can depart if selected for the assignment on 3iSolution Careers.</li>
 
 
 Please let us know as soon as possible, but no later than <b>{{ $closingDate }}</b>, 5pm Geneva time, if you are interested in this assignment. Please express your interest by clicking here:

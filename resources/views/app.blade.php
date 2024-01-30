@@ -14,7 +14,7 @@
 
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.png') }}"/>
     <style>@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,500|Barlow:400,400i,700&display=swap');</style>
-    <style type="text/css">#first-loading>svg{animation:2s linear infinite svg-animation;max-width:30px;position:absolute;left:48%;top:40%}@keyframes svg-animation{0%{transform:rotateZ(0)}100%{transform:rotateZ(360deg)}}#first-loading>svg>circle{animation:1.4s ease-in-out infinite both circle-animation;display:block;fill:transparent;stroke:#be2126;stroke-linecap:round;stroke-dasharray:283;stroke-dashoffset:280;stroke-width:8px;transform-origin:50% 50%}@keyframes circle-animation{0%,25%{stroke-dashoffset:280;transform:rotate(0)}50%,75%{stroke-dashoffset:75;transform:rotate(45deg)}100%{stroke-dashoffset:280;transform:rotate(360deg)}}</style>
+    <style type="text/css">#first-loading>svg{animation:2s linear infinite svg-animation;max-width:30px;position:absolute;left:48%;top:40%}@keyframes svg-animation{0%{transform:rotateZ(0)}100%{transform:rotateZ(360deg)}}#first-loading>svg>circle{animation:1.4s ease-in-out infinite both circle-animation;display:block;fill:transparent;stroke:#043C6E;stroke-linecap:round;stroke-dasharray:283;stroke-dashoffset:280;stroke-width:8px;transform-origin:50% 50%}@keyframes circle-animation{0%,25%{stroke-dashoffset:280;transform:rotate(0)}50%,75%{stroke-dashoffset:75;transform:rotate(45deg)}100%{stroke-dashoffset:280;transform:rotate(360deg)}}</style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155978569-1"></script>
     <script>

@@ -1695,7 +1695,7 @@ const styles = (theme) => ({
     marginBottom: 12
   },
   iconAdd: {
-    color: '#be2126',
+    color: '#043C6E',
     '&:hover': {
       cursor: 'pointer'
     }
@@ -1712,7 +1712,7 @@ const styles = (theme) => ({
     }
   },
   iconDelete: {
-    color: '#be2126',
+    color: '#043C6E',
     '&:hover': {
       cursor: 'pointer'
     }

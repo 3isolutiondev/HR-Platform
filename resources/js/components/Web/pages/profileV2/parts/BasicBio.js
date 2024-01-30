@@ -37,7 +37,7 @@ import { getBio } from '../../../redux/actions/profile/bioActions';
 /** import logo, permission checker, configuration value and validation helper */
 import { borderColor, blueIMMAP, primaryColor, white, lightText, star } from '../../../config/colors';
 import isEmpty from '../../../validations/common/isEmpty';
-import mainLogo from '../../../../../../img/immap-career-logo.png';
+import mainLogo from '../../../../../../img/3islogo.png';
 import { can } from '../../../permissions/can';
 
 /** import other components needed for this component */

@@ -30,7 +30,7 @@ import isEmpty from '../../validations/common/isEmpty';
  * ChangeLineManagerModel is a component to show the historic of user's contract.
  * @name ChangeLineManagerModel
  * @component
- * @category iMMAPer
+ * @category Consultant
  * @subcategory Contract History
  *
  */

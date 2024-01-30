@@ -70,7 +70,7 @@ class ResetPassword extends Notification
             ->greeting('Hello,')
             ->line('You are receiving this email because we received a password reset request for your account.')
             ->action('Reset Password', $url)
-            ->line(new HtmlString('<p>The above link is valid during 1 hour. After this period, you will need to request another link via the reset password page: <a href="https://careers.immap.org/reset-password">iMMAP Careers</a>.</p>'))
+            ->line(new HtmlString('<p>The above link is valid during 1 hour. After this period, you will need to request another link via the reset password page: <a href="https://careers.immap.org/reset-password">3iSolution Careers</a>.</p>'))
             ->line('If you did not request a password reset, no further action is required.');
         // ->line('Please verify your account by clicking button below.')''
     }

@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 /** import configuration value and logo */
 import { primaryColor } from '../config/colors';
-import mainLogo from "../../../../img/immap-career-logo.png";
+import mainLogo from "../../../../img/3islogo.png";
 
 /**
  * AuthLogo is a component to show Logo in:
@@ -34,7 +34,7 @@ const AuthLogo = ({ classes }) => (
         className={classes.imgLogo}
       />{" "}
       <Typography variant="h5" className={classes.textLogo}>
-        iMMAP Careers
+        3iSolution Careers
       </Typography>
     </Link>
   </div>
@@ -54,16 +54,15 @@ AuthLogo.propTypes = {
  */
 const styles = (theme) => ({
   textLogo: {
-    display: "inline-block",
-    "vertical-align": "middle",
     "font-weight": "bold",
     color: primaryColor,
-    "margin-top": (theme.spacing.unit / 2) * -1,
-    "margin-left": theme.spacing.unit / 2,
+    "margin-top": (theme.spacing.unit * 3),
+    "text-align": "center",
   },
   imgLogo: {
-    display: "inline-block",
-    "vertical-align": "middle",
+    display: "block",
+    "margin": "0 auto",
+    width: "80%",
   },
   logoLink: {
     "text-decoration": "none",

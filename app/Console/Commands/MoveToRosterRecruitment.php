@@ -62,7 +62,7 @@ class MoveToRosterRecruitment extends Command
         $roster = $this->checkRosterExist($rosterSkillset);
 
         if (is_null($roster)) {
-            echo "There is no or multiple roster with the skillset, please contact iMMAP Careers Admin/Developer" . PHP_EOL;
+            echo "There is no or multiple roster with the skillset, please contact 3iSolution Careers Admin/Developer" . PHP_EOL;
             return false;
         }
 

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'iMMAP Careers'),
+    'name' => env('APP_NAME', '3iSolution Careers'),
 
     /*
     |--------------------------------------------------------------------------

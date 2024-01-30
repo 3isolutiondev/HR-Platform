@@ -326,7 +326,7 @@ const styles = (theme) => ({
 	button: {
 		float: 'right',
 		'&:hover': {
-			backgroundColor: '#be2126'
+			backgroundColor: '#043C6E'
 		},
 		'&:hover $iconAdd': {
 			color: 'white'
@@ -334,7 +334,7 @@ const styles = (theme) => ({
 		top: -5
 	},
 	iconAdd: {
-		color: '#be2126'
+		color: '#043C6E'
 	},
 	linkedin: {
 		color: '#0e76a8',

@@ -1045,14 +1045,14 @@ class RosterController extends Controller
                 Please confirm the scheduled interview by accepting this online meeting invite. Alternatively, please reply to '.$hr_profile->immap_email.' with your suggested date and time.<br /><br />
                 <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
                 Thank you and best regards,<br />
-                iMMAP Careers</p>';
+                3iSolution Careers</p>';
             } else {
                 $eventBody='<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear '.$user->full_name.'</span>,<br /><br />iMMAP is pleased to inform you that your profile has been selected to participate in the iMMAP <strong>'.$roster_process->name.'</strong> selection process.<br /><br />we would like to invite you for an online introductory call using the link from below (Microsoft Teams).<br />
                 Proposed date: <strong>'.date('l, d F Y, H:i', strtotime($validatedData['interview_date'])).' '.$validatedData['interview_timezone'].' time</strong>.<br /><br />
                 Please confirm the scheduled interview by accepting this online meeting invite. Alternatively, please reply to '.$hr_profile->immap_email.' with your suggested date and time.<br /><br />
                 <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
                 Thank you and best regards,<br />
-                iMMAP Careers</p>';
+                3iSolution Careers</p>';
             }
             $event['eventBody'] = $eventBody;
             $event['isOnline'] = true;
@@ -1640,7 +1640,7 @@ class RosterController extends Controller
             <span style="font-size:16px;color:#74787e;line-height:1.4">Please acknowledge receipt by validating your presence.</span><br />
             <span style="font-size:16px;color:#74787e;line-height:1.4">
             Thank you and best regards,<br />
-            iMMAP Careers
+            3iSolution Careers
             </span>
             </p>';
 

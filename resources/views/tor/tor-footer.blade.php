@@ -24,9 +24,9 @@
 <table class="footer-container">
     <tr><td style="text-align: center;">
         @if($sharedCost == 1)
-        <p>RRB / ITC</p>
-        <p>1300 Pennsylvania Avenue NW, Suite 470</p>
-        <p>Washington, DC 20004 USA</p>
+                <p>10 rue Stanislas Torrents</p>
+                <p>13006, Marseille, France</p>
+                <p>3isolution.org</p>
         @else
         <p>{{ $mailingAddress }}</p>
         @endif

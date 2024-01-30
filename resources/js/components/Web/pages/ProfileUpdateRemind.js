@@ -51,7 +51,7 @@ class ProfileUpdateRemind extends Component {
         this.props.addFlashMessage({
             type: 'error',
             text: 'There is an error while processing the request'
-        });    
+        });
      });
  }
 
@@ -66,7 +66,7 @@ class ProfileUpdateRemind extends Component {
         <DialogTitle id="draggable-dialog-title">System Updates</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            The iMMAP Careers team has made some improvements to the systems. We
+            The 3iSolution Careers team has made some improvements to the systems. We
             would like you to update your skills, sectors, and area of expertise
             from the <b>profile page</b>.
           </DialogContentText>

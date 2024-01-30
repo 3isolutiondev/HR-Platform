@@ -2,7 +2,7 @@
 <h1>Dear {{ $name }},</h1>
 
 <br/>
-We have received a request to permanently delete your iMMAP Careers account and all information associated with it.
+We have received a request to permanently delete your 3iSolution Careers account and all information associated with it.
 
 @if($hiddenConfirmationMail)
 Please note that due to data protection and privacy laws, we will retain your data for a period no longer than five years. During this period, you can restore your account and its associated data if you register with the same email address. After this period, we will proceed with the permanent deletion of your account and its data.
@@ -19,9 +19,9 @@ Remove my account
 
 The above link is valid during 1 hour. After this period, you will need to request another link from your profile page: <a href="https://careers.immap.org/profile">{{ config('app.name') }}</a>.
 
-If you decide to start using iMMAP Careers in the future, you will have the option to register your account with this email address again.
+If you decide to start using 3iSolution Careers in the future, you will have the option to register your account with this email address again.
 
-Ignore this message if you decided to continue using iMMAP Careers.
+Ignore this message if you decided to continue using 3iSolution Careers.
 
 Our Best Wishes,<br>
 {{ config('app.name') }}

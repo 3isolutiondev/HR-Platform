@@ -37,18 +37,18 @@
             margin: 0px
         }
         .color-red {
-            color: #be2126;
+            color: #043C6E;
         }
         .red-bar {
             padding: 4px;
-            background: #be2126;
-            border: 1px solid #be2126;
+            background: #043C6E;
+            border: 1px solid #043C6E;
             border-bottom: 0;
         }
         .download-btn {
             padding: 5px;
             color: white;
-            background: #be2126;
+            background: #043C6E;
             border-radius: 3px;
             margin-top: 15px;
             text-decoration: none;
@@ -58,7 +58,7 @@
             padding-top: 5px
         }
         .white-bg {
-            color: #be2126;
+            color: #043C6E;
             background: white;
             font-size: 12px;
 
@@ -84,7 +84,7 @@
     <body>
 
         <div class="red-bar"><h1 class="title">Recruitment Report</h1></div>
-        <table style="width: 100%; border-collapse: collapse; border: 1px solid #be2126; border-top: 0;">
+        <table style="width: 100%; border-collapse: collapse; border: 1px solid #043C6E; border-top: 0;">
             <tr style="font-weight:bold;padding-top:5px; padding-bottom: 5px">
                 <td style="font-size: 16px;" class="color-red bold">Job Title: </td>
                 <td colspan="3"><div style="font-size: 16px;margin-top:5px;margin-bottom: 5px">{{ $job->title }}</div></td>
@@ -126,7 +126,7 @@
             <div class="red-bar">
                 <h5 class="sub-title">List of {{ $statusName }}</h5>
             </div>
-            <table style="width: 100%; background-color: #d3bebf; border: 1px solid #be2126; border-top: 0;">
+            <table style="width: 100%; background-color: #d3bebf; border: 1px solid #043C6E; border-top: 0;">
                 <tr style="height: 30px;">
                     <td style="width: 27%;" class="color-red">Number of Applicants ({{ $statusName }}) : {{ $report['total'] }}</td>
                     @if(!empty($report['zippedCVs']))
@@ -135,7 +135,7 @@
                 </tr>
             </table>
             @foreach($report['listApplicant'] as $key => $applicant)
-                <table style="width: 100%; border-collapse: collapse; border: 1px solid #be2126; border-top: 0;">
+                <table style="width: 100%; border-collapse: collapse; border: 1px solid #043C6E; border-top: 0;">
                     <tr style="height: 30px;">
                         <td style="width: 15%"; class="color-red bold">Name: </td>
                         <td style="width: 35%";><div>{{ $applicant->full_name }}</div></td>
@@ -201,7 +201,7 @@
                                     <a href="{{$applicant->scoring_sheet}}" class="download-btn" >Download scoring sheet </a>
                                 </td>
                             </tr>
-                            
+
                     @endif
                 </table>
             @endforeach

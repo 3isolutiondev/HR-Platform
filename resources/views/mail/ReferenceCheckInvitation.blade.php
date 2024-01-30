@@ -18,7 +18,7 @@ Thank you and We appreciate you taking the time to complete this reference check
 
 Best Regards,</br>
 
-iMMAP Careers
+3iSolution Careers
 
 @component('mail::subcopy')
 @lang(

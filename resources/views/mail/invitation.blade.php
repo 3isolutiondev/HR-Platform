@@ -3,7 +3,7 @@
 
 <br/>
 
-Based on your profile on iMMAP Careers, we would like to encourage you to apply for the job : {{ $job->title }}.
+Based on your profile on 3iSolution Careers, we would like to encourage you to apply for the job : {{ $job->title }}.
 
 @component('mail::button', ['url' => $jobUrl])
 <i>Apply</i>

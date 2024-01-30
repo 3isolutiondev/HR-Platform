@@ -228,17 +228,6 @@ const MobileMenu = ({
           && (
             <div>
 
-               {isAuthenticated && user.isIMMAPER && can('View Surge Overview') &&
-                  <ListItem
-                    selected={indexUrl.indexOf('/surge-roster-deployment-dashboard') === 0 ? true : false}
-                    button
-                    component={Link}
-                    to="/surge-roster-deployment-dashboard"
-                  >
-                    <ListItemText secondary="Surge Overview" className={classes.dropDownMenu} />
-                  </ListItem>
-                }
-
                 {isAuthenticated && user.isIMMAPER &&
                   can('Index Roster') && (
                     <ListItem
@@ -249,7 +238,7 @@ const MobileMenu = ({
                     >
                       <ListItemText secondary="Roster" className={classes.dropDownMenu} />
                     </ListItem>
-                )}  
+                )}
             </div>
           )
         }

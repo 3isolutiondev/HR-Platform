@@ -37,18 +37,18 @@
             margin: 0px
         }
         .color-red {
-            color: #be2126;
+            color: #043C6E;
         }
         .red-bar {
             padding: 4px;
-            background: #be2126;
-            border: 1px solid #be2126;
+            background: #043C6E;
+            border: 1px solid #043C6E;
             border-bottom: 0;
         }
         .download-btn {
             padding: 5px;
             color: white;
-            background: #be2126;
+            background: #043C6E;
             border-radius: 3px;
             margin-top: 15px;
             text-decoration: none;
@@ -58,7 +58,7 @@
             padding-top: 5px
         }
         .white-bg {
-            color: #be2126;
+            color: #043C6E;
             background: white;
             font-size: 12px;
 
@@ -83,7 +83,7 @@
     <body>
 
         <div class="red-bar"><h1 class="title">Scoring sheet</h1></div>
-        <table style="width: 100%; border-collapse: collapse; border-top: 0;border: 1px solid #be2126;padding:5px">
+        <table style="width: 100%; border-collapse: collapse; border-top: 0;border: 1px solid #043C6E;padding:5px">
             <tr style="font-weight:bold;padding-top:5px; padding-bottom: 5px;">
                 <td style="font-size: 14px;" class="color-red bold">Job </td>
                 <td ><div style="font-size: 14px;margin-top:5px;margin-bottom: 5px">{{$jobTitle}}</div></td>
@@ -99,14 +99,14 @@
         </table>
         <br>
         @foreach($reportData as $key => $report)
-            <table style="width: 100%; background-color: #d3bebf; border: 1px solid #be2126;">
+            <table style="width: 100%; background-color: #d3bebf; border: 1px solid #043C6E;">
                 <tr style="height: 30px;">
                     <td style="width: 90%;font-size:13px;" class="color-red">{{$report["manager"]["manager"]->label}}</td>
                     <td style="width: 10%;font-size:13px;">{{ $report["averageScore"] !== "No Score" ? number_format((float)$report["averageScore"], 2, '.', '')." / 5" : "No Score"}}</td>
                 </tr>
             </table>
-            
-                <table style="width: 100%; border-collapse: collapse; border: 1px solid #be2126; border-top: 0;">
+
+                <table style="width: 100%; border-collapse: collapse; border: 1px solid #043C6E; border-top: 0;">
                     @foreach($report["manager"]["score"] as $key2 => $score)
                     <tr style="padding-bottom:15px;height:30px;border-bottom:1px solid grey;">
                         <td style="width: 80%"; class="bold">
@@ -133,10 +133,10 @@
             @endforeach
             <br>
 
-        <table style="width: 100%; border-collapse: collapse; border: 1px solid #be2126;">
+        <table style="width: 100%; border-collapse: collapse; border: 1px solid #043C6E;">
             <tr style="font-weight:bold;padding-top:5px; padding-bottom: 5px">
                 <td style="font-size: 16px;width:90%" class="color-red bold">Final score </td>
-                <td colspan="3" style="width:10%; border-right: 1px solid #be2126"><div style="width:10%;font-size: 16px;margin-top:5px;margin-bottom: 5px">{{number_format((float)$finalScore, 2, '.', '')}}/5</div></td>
+                <td colspan="3" style="width:10%; border-right: 1px solid #043C6E"><div style="width:10%;font-size: 16px;margin-top:5px;margin-bottom: 5px">{{number_format((float)$finalScore, 2, '.', '')}}/5</div></td>
             </tr>
         </table>
     </body>

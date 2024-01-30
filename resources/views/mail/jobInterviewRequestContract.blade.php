@@ -61,5 +61,5 @@
 
 Thank you and best regards,
 
-iMMAP Careers
+3iSolution Careers
 @endcomponent

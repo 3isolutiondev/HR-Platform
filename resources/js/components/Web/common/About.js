@@ -30,7 +30,7 @@ const whatWeDo = [
 ];
 
 /**
- * Component for showing details about iMMAP on the footer of iMMAP Careers (iMMAP logo, links to iMMAP official website, and iMMAP social media).
+ * Component for showing details about iMMAP on the footer of 3iSolution Careers (iMMAP logo, links to iMMAP official website, and iMMAP social media).
  *
  *
  * Permission: -

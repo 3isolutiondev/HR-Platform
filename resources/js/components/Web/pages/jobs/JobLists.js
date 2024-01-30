@@ -168,7 +168,7 @@ class JobLists extends Component {
 			return (
 				<div style={{display:'flex', paddingLeft:'40%'}}>
 
-					<Typography style={{color:'#be2126'}}>
+					<Typography style={{color:'#043C6E'}}>
 						Loading Awesome Jobs...
 					</Typography>
 					<CircularProgress thickness={5} size={22} className={classes.loading} />

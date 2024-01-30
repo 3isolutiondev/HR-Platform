@@ -23,7 +23,7 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 
 /** import logo, configuration value, validation helper and permission checker */
-import mainLogo from '../../../../img/immap-career-logo.png';
+import mainLogo from '../../../../img/3islogoshort.png';
 import { primaryColor, white } from '../config/colors';
 import { drawerWidth } from '../config/web';
 import isEmpty from '../validations/common/isEmpty';
@@ -102,7 +102,6 @@ const styles = (theme) => {
 
 		dropdown_menu: {
 			top: '60px',
-			backgroundColor: 'white',
 			listStyleType: 'none',
 			padding: '0',
 			backgroundColor: '#f9f9f9',
@@ -164,7 +163,7 @@ const styles = (theme) => {
 };
 
 /**
- * Header (Navbar) Component. It contains iMMAP Careers logo and navigation
+ * Header (Navbar) Component. It contains 3iSolution Careers logo and navigation
  *
  * @name Header
  * @component
@@ -338,9 +337,9 @@ class Header extends Component {
 								className={classes.logoLink}
 								ref={this.logo}
 							>
-								<img src={mainLogo} width="69" height="60" alt="immap careers" className={classes.imgLogo} />{' '}
+								<img src={mainLogo} height="60" alt="immap careers" className={classes.imgLogo} />{' '}
 								<Typography variant="h5" className={classes.textLogo}>
-									iMMAP Careers
+									3iSolution Careers
 								</Typography>
 							</Link>
 						</div>
@@ -530,22 +529,6 @@ class Header extends Component {
 										this.state.talentPoolShowDrop
 										&& (
 											<ul className={classes.dropdown_menu}>
-												<li>
-													{auth.isAuthenticated === true && user.isIMMAPER && can('View Surge Overview') &&
-															<Link
-																to="/surge-roster-deployment-dashboard"
-																className={
-																	indexUrl === '/surge-roster-deployment-dashboard' ? (
-																		classnames(classes.navDropMenu, classes.activeMenu)
-																	) : (
-																		classes.navDropMenu
-																	)
-																}
-															>
-																<Typography color="secondary">Surge Overview</Typography>
-															</Link>
-													}
-												</li>
 												<li>
 													{auth.isAuthenticated === true && user.isIMMAPER &&
 														can('Index Roster') && (

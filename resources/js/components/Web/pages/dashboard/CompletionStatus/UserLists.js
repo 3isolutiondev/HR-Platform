@@ -12,7 +12,7 @@ const UserLists = ({ Users, classes, loadingJob, paginate }) => {
   if(loadingJob) {
     return (
       <div style={{display:'flex', paddingLeft:'40%'}}>
-        <Typography style={{color:'#be2126'}}>
+        <Typography style={{color:'#043C6E'}}>
           Loading Awesome Users...
         </Typography>
         <CircularProgress thickness={5} size={22} className={classes.loading} />

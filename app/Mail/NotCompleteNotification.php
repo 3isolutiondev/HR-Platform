@@ -32,7 +32,7 @@ class NotCompleteNotification extends Mailable
      */
     public function build()
     {
-        return $this->subject("Finalization of your iMMAP Careers profile")->markdown('mail.notCompleteNotif');
+        return $this->subject("Finalization of your 3iSolution Careers profile")->markdown('mail.notCompleteNotif');
     }
 }
 

@@ -21,8 +21,8 @@
     ],
     "templates": {
         "better-docs": {
-            "name": "iMMAP Careers",
-            "logo": "../images/immap-career-logo.png",
+            "name": "3iSolution Careers",
+            "logo": "../images/3islogo.png",
             "css": "../css/frontend-docs.css"
         }
     },

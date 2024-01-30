@@ -578,7 +578,7 @@ class Profile extends React.Component {
       this.setState({ downloadLoading: false })
       return FileDownload(
         res.data,
-        `iMMAP Careers Profile Resume - ${this.props.profileName} - ${moment().format('YYYY-MM-DD-HH-mm-ss')}.pdf`
+        `3iSolution Careers Profile Resume - ${this.props.profileName} - ${moment().format('YYYY-MM-DD-HH-mm-ss')}.pdf`
       );
     })
     .catch((err) => {
@@ -603,7 +603,7 @@ class Profile extends React.Component {
       this.setState({ downloadAnonymizedLoading: false })
       return FileDownload(
         res.data,
-        `iMMAP Careers Profile Resume - ${profileId} - ${moment().format('YYYY-MM-DD-HH-mm-ss')}.pdf`
+        `3iSolution Careers Profile Resume - ${profileId} - ${moment().format('YYYY-MM-DD-HH-mm-ss')}.pdf`
       );
     })
     .catch((err) => {
@@ -816,7 +816,7 @@ class Profile extends React.Component {
                   size="lg"
                   className={classes.recommendationIcon}
                 />
-                Download iMMAP Careers Profile
+                Download 3iSolution Careers Profile
                 {downloadLoading && (
                   <CircularProgress size={22} thickness={5} className={classes.loading}/>
                 )}

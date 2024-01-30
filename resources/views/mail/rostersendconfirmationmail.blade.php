@@ -5,7 +5,7 @@ The candidate has received this email
 <b>{{$name}}</b>
 <br/><br/>
 <i>
-Based on your profile on iMMAP Careers, we would like to encourage you to apply for the {{ $roster_title }}
+Based on your profile on 3iSolution Careers, we would like to encourage you to apply for the {{ $roster_title }}
 </i>
 @component('mail::button', ['url' => $roster_url])
 <i>Apply</i>

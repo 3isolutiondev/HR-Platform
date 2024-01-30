@@ -11,7 +11,7 @@ During the call, you will be in speaking to
 
 <b>iMMAP HR Manager, {{ $hr_manager }}</b>.
 
-Should the interview be completed satisfactory, iMMAP will check your references in the following weeks. The references you entered in your registration form on the iMMAP Careers site will be contacted by iMMAP.
+Should the interview be completed satisfactory, iMMAP will check your references in the following weeks. The references you entered in your registration form on the 3iSolution Careers site will be contacted by iMMAP.
 
 After that process, iMMAP will inform you whether you are officially part of our roster.
 

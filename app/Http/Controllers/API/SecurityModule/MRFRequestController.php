@@ -220,7 +220,7 @@ class MRFRequestController extends Controller
                         }
                     },
                     'string'
-                ];   
+                ];
             }
         }
         return $rules;
@@ -243,7 +243,7 @@ class MRFRequestController extends Controller
                 'string',
                 'in:single-vehicle-movement,multiple-vehicle-movements,use-of-hire-car'
             ];
-    
+
             $rules = $this->travelDetailRules($rules, $request, $vehicleFilledByImmaper);
         }
 
@@ -542,7 +542,7 @@ class MRFRequestController extends Controller
             } else {
                 if($prevStatus == 'approved'){
                     Mail::to(config('mail.from.address'))->cc($officers)->send(new SecurityReminderAfterApprovalMRFSubmissionEmail($status, $record, $replyTo));
-                }else{  
+                }else{
                     Mail::to(config('mail.from.address'))->cc($officers)->send(new SecurityReminderMRFSubmissionEmail($status, $record, $replyTo));
                 }
             }
@@ -799,7 +799,7 @@ class MRFRequestController extends Controller
      *                      @SWG\Property(property="company_email", type="email", description="Company Email", example="example@mail.com"),
      *                      @SWG\Property(property="company_phone_number", type="string", description="Company Phone Number", example="0995307252"),
      *                      @SWG\Property(property="company_driver", type="string", description="Company's driver details", example="Joe Doe")
-     *                      
+     *
      *                  )
      *              ),
      *              @SWG\Property(property="security_measure", type="integer", description="Security measure id, should be exist in security_module_security_measures table", example=1),
@@ -840,7 +840,7 @@ class MRFRequestController extends Controller
                 }
             }
         }
-        
+
         $date = date("dmy", strtotime($request->itineraries[0]['date_time']));
         $recordData['name'] = 'DOM-' . $record->user->family_name . '-' . $date;
 
@@ -955,7 +955,7 @@ class MRFRequestController extends Controller
                             $this->sendReminder('resubmitted', $record, auth()->user()->immap_email);
                         }
                     }
-                }   
+                }
             }
 
             $pdf = $record->getMedia('mrf_pdf');
@@ -1161,7 +1161,7 @@ class MRFRequestController extends Controller
      *              @SWG\Property(property="movement_state", type="integer", description="Movement state id, should be exist in security_module_movement_states table", example="1"),
      *              @SWG\Property(property="security_measure_email", type="integer", enum={0,1}, description="For air travel approval, 1 for using email", example="1"),
      *              @SWG\Property(property="security_measure_smart24", type="integer", enum={0,1}, description="For air travel approval, 1 for using smart24", example="1"),
-     *              @SWG\Property(property="security_measure_immap_careers", type="integer", enum={0,1}, description="For air travel approval, 1 for using iMMAP Careers", example="1"),
+     *              @SWG\Property(property="security_measure_immap_careers", type="integer", enum={0,1}, description="For air travel approval, 1 for using 3iSolution Careers", example="1"),
      *              @SWG\Property(property="travel_details", type="array", description="Travel details on Domestic travel request (required if vehicle_filled_by_immaper == no and status == approved)",
      *                  @SWG\Items(
      *                      type="object",
@@ -1233,7 +1233,7 @@ class MRFRequestController extends Controller
                     if (!empty($detail['id'])) {
                         $oldDetail = $record->travel_details()->where('id', $detail['id'])->first();
                         if(!empty($oldDetail)) {
-                            $oldDetail->fill($detailData); 
+                            $oldDetail->fill($detailData);
                             if(!$oldDetail->isClean()) {
                                 $oldDetail->save();
                             }
@@ -1261,7 +1261,7 @@ class MRFRequestController extends Controller
                     $advisor = null;
                 }
             }
-            
+
             $pdf = $record->getMedia('mrf_pdf');
             if (!empty($pdf)) {
                 if (count($pdf)) {
@@ -1297,18 +1297,18 @@ class MRFRequestController extends Controller
                         Mail::to($notifyEmail)->send(new NotifyMRFTravel($record));
                     }
                 }
-                
+
                  //Notify SBP Managers
                  if($record->user->profile->under_sbp_program == true){
                     $SBPManagers = User::role('SBPP Manager')->whereNotNull('immap_email')->pluck('immap_email');
                     if(!$SBPManagers->isEmpty()){
-                        Mail::to($SBPManagers)->send(new NotifySBPManagersMRFApprovedEmail($record));  
-                    } 
+                        Mail::to($SBPManagers)->send(new NotifySBPManagersMRFApprovedEmail($record));
+                    }
                   }
             }
 
             $record = MRFRequest::findOrFail($record->id);
-            
+
             return response()->success(__('crud.success.update', ['singular' => ucwords($this->singular)]), $record);
         }
 
@@ -1370,7 +1370,7 @@ class MRFRequestController extends Controller
        ]);
 
        $record = MRFRequest::findOrFail($id);
-       
+
        if($record && $record->status == "approved"){
            foreach($validatedData['itineraries'] as $data){
                $itinerary = MRFRequestItinerary::where('mrf_request_id',$id)->where('id', $data['id'])->first();
@@ -1391,7 +1391,7 @@ class MRFRequestController extends Controller
    public function getMRFPDFFile($id)
    {
        $record = MRFRequest::findOrFail($id);
-    
+
        $pdf = $record->getMedia('mrf_pdf');
        $pdf = empty($pdf) ? '' : $pdf[0]->getFromS3()->getPath();
 

@@ -2772,14 +2772,14 @@ class JobController extends Controller
                 Please confirm the scheduled interview by accepting this online meeting invite. Alternatively, please reply to '.$hr_manager->immap_email.' with your suggested date and time.<br /><br />
                 <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
                 Thank you and best regards,<br />
-                iMMAP Careers</p>';
+                3iSolution Careers</p>';
                 } else {
                     $event['eventBody'] = '<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear '.$user->full_name.'</span>,<br /><br />Congratulations, your profile was selected as a match for the <strong>'.$job->title.'</strong> position.<br /><br />We would like to invite you for an interview at '.$validatedData['interview_address'].'.<br />
                     Proposed date: <strong>'.date('l, d F Y, H:i', strtotime($validatedData['interview_date'])).' '.$validatedData['timezone'].' time</strong>.<br /><br />
                     Please confirm the scheduled interview by accepting this meeting invite. Alternatively, please reply to '.$hr_manager->immap_email.' with your suggested date and time.<br /><br />
                     <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
                     Thank you and best regards,<br />
-                    iMMAP Careers</p>';
+                    3iSolution Careers</p>';
                 }
                 if($validatedData['interview_address']) {
                     $event['address'] = $validatedData['interview_address'];

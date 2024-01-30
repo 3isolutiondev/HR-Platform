@@ -28,7 +28,7 @@ const styles = () => ({
 	addMarginTop: {
 		'margin-top': '.75em',
 		'&:hover $iconEdit': {
-			color: '#be2126'
+			color: '#043C6E'
 		}
 	},
 	addSmallMarginRight: {
@@ -40,7 +40,7 @@ const styles = () => ({
 	button: {
 		float: 'right',
 		'&:hover': {
-			backgroundColor: '#be2126'
+			backgroundColor: '#043C6E'
 		},
 		'&:hover $iconEdit': {
 			color: 'white'
@@ -53,7 +53,7 @@ const styles = () => ({
 		color: 'transparent'
 	},
 	iconAdd: {
-		color: '#be2126'
+		color: '#043C6E'
 	},
 	break: {
 		marginBottom: '20px'

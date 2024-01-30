@@ -128,7 +128,7 @@
                                         $gPaper = $mediaPdf->getFullUrl();
                                     }
                                 @endphp
-                                <span class="download-yes">Yes </span>  
+                                <span class="download-yes">Yes </span>
                                 @if(!empty($gPaper))
                                         <a href="{{$gPaper}}" class="download-btn">Download</a>
                                 @endif
@@ -186,7 +186,7 @@
                         <td colspan="2"><b>Security Measures Required:</b></td>
                         <td colspan="2" class="show-pre-line">
                             @if($tar->security_measure_email == 1 && $tar->security_measure_smart24 == 1 && $tar->security_measure_immap_careers == 1)
-                                Check-in on arrival via email , Mobile App and iMMAP Careers
+                                Check-in on arrival via email , Mobile App and 3iSolution Careers
                             @elseif($tar->security_measure_email == 0 && $tar->security_measure_smart24 == 0 && $tar->security_measure_immap_careers == 0)
                                 None
                             @else
@@ -197,8 +197,8 @@
                                     Check-in on arrival via Mobile App
                                 @endif
                                 @if($tar->security_measure_immap_careers == 1)
-                                    Check-in on arrival via iMMAP Careers
-                                @endif       
+                                    Check-in on arrival via 3iSolution Careers
+                                @endif
                             @endif
                         </td>
                     </tr>

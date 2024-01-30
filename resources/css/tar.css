@@ -10,7 +10,7 @@ td {
 }
 
 .immap-bg {
-    background: #be2126 !important;
+    background: #043C6E !important;
     /* color: white !important; */
 }
 
@@ -54,7 +54,7 @@ table {
 .download-btn {
     padding: 5px;
     color: white;
-    background: #be2126;
+    background: #043C6E;
     border-radius: 3px;
     text-decoration: none;
     display: inline-block;

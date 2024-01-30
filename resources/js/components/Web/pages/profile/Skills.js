@@ -28,13 +28,13 @@ import { deleteAPI } from '../../redux/actions/apiActions';
 const styles = () => ({
 	skilStyle: {
 		'&:hover $iconEdit': {
-			color: '#be2126'
+			color: '#043C6E'
 		}
 	},
 	button: {
 		float: 'right',
 		'&:hover': {
-			backgroundColor: '#be2126'
+			backgroundColor: '#043C6E'
 		},
 		'&:hover $iconAdd': {
 			color: 'white'
@@ -44,7 +44,7 @@ const styles = () => ({
 		}
 	},
 	iconAdd: {
-		color: '#be2126'
+		color: '#043C6E'
 	},
 	iconEdit: {
 		color: 'transparent'

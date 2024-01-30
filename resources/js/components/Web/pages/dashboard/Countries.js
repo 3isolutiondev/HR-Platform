@@ -114,7 +114,7 @@ class Countries extends Component {
           },
         },
         {
-        name: "Vehicle Filled by iMMAPer",
+        name: "Vehicle Filled by Consultant",
           options: {
             filter: false,
             sort: false,
@@ -365,7 +365,7 @@ class Countries extends Component {
         this.getData();
         this.props.addFlashMessage({
           type: "success",
-          text: "Vehicle filled by iMMAPer successfully updated",
+          text: "Vehicle filled by Consultant successfully updated",
         });
       })
       .catch((err) => {

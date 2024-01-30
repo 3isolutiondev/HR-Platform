@@ -48,14 +48,14 @@ const styles = (theme) => ({
 	button: {
 		float: 'right',
 		'&:hover': {
-			backgroundColor: '#be2126'
+			backgroundColor: '#043C6E'
 		},
 		'&:hover $iconAdd': {
 			color: 'white'
 		}
 	},
 	iconAdd: {
-		color: '#be2126'
+		color: '#043C6E'
 	},
 	root: {
 		...theme.mixins.gutters(),

@@ -14,8 +14,8 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
  *     host=L5_SWAGGER_CONST_HOST,
  *     @SWG\Info(
  *         version="1.0.0",
- *         title="iMMAP Careers API",
- *         description="iMMAP Careers API Documentation",
+ *         title="3iSolution Careers API",
+ *         description="3iSolution Careers API Documentation",
  *         @SWG\Contact(
  *             email="careers@organization.org"
  *         ),

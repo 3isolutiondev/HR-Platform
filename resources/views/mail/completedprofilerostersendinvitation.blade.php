@@ -30,7 +30,7 @@ Thank you and best regards,<br>
  @component('mail::message')
 <h1>Dear {{ $name }},</h1>
 <br/>
-Based on your profile on iMMAP Careers, we would like to encourage you to apply for the {{ $roster_title }}
+Based on your profile on 3iSolution Careers, we would like to encourage you to apply for the {{ $roster_title }}
 
 @component('mail::button', ['url' => $roster_url])
 Apply

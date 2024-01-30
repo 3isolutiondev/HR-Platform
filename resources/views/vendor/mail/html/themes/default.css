@@ -108,7 +108,7 @@ img {
 .header {
 	padding: 25px 0;
 	text-align: center;
-	background: #be2126;
+	background: #043C6E;
 }
 
 .header a {
@@ -253,11 +253,11 @@ img {
 }
 
 .button-primary {
-	background-color: #be2126;
-	border-top: 10px solid #be2126;
-	border-right: 18px solid #be2126;
-	border-bottom: 10px solid #be2126;
-	border-left: 18px solid #be2126;
+	background-color: #043C6E;
+	border-top: 10px solid #043C6E;
+	border-right: 18px solid #043C6E;
+	border-bottom: 10px solid #043C6E;
+	border-left: 18px solid #043C6E;
 }
 
 /* Panels */
@@ -313,5 +313,5 @@ img {
 }
 
 .footer-container {
-	background: #be2126;
+	background: #043C6E;
 }

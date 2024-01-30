@@ -29,6 +29,6 @@ class DeleteUserNotification extends Mailable
      */
     public function build()
     {
-        return $this->subject('Account Deletion on iMMAP Careers')->markdown('mail.deleteUserNotification');
+        return $this->subject('Account Deletion on 3iSolution Careers')->markdown('mail.deleteUserNotification');
     }
 }

@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 body {font-family: 'Barlow', sans-serif !important;}
-a { color: #be2126 !important; }
+a { color: #043C6E !important; }
 a:hover { color: #a52824 !important; }
 .logo {display: flex;}
-.logo h1 {margin-top: 8px; color: #be2126;}
+.logo h1 {margin-top: 8px; color: #043C6E;}
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {font-family: 'Barlow', sans-serif !important;}
 #main>.sidebar { width: 250px;}
-.button { border-color: #be2126; color: #be2126;}
+.button { border-color: #043C6E; color: #043C6E;}
 .button:hover { border-color: #a52824; color: #a52824;}
 .tag-source span a { color:#6d6e71; }
-.tag-source span a:hover { color: #be2126; }
+.tag-source span a:hover { color: #043C6E; }
 .sidebar-created-by { display: none; }
 .top-nav .menu .navigation .link:hover:not(.no-hover){ border-bottom: 1px solid #a52824;}
 .member>.description p { font-size: 18px; }

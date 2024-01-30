@@ -22,11 +22,11 @@ const styles = () => ({
 		marginTop: '-25px '
 	},
 	right: {
-		borderRight: '1px solid #be2126',
+		borderRight: '1px solid #043C6E',
 		paddingRight: '5px'
 	},
 	left: {
-		borderLeft: '1px solid #be2126',
+		borderLeft: '1px solid #043C6E',
 		paddingLeft: '5px'
 	}
 });

@@ -24,9 +24,9 @@
         width: 70%;
         display: inline-block;
     }
-    .color-red{ color: #be2126; }
+    .color-red{ color: #043C6E; }
     .bold{ font-weight: bold; }
-    .red-bar {padding: 4px; background: #be2126;}
+    .red-bar {padding: 4px; background: #043C6E;}
     .no-text {height: 3.5mm;}
     .org-container{ margin-top: 5px; margin-bottom: 5px;}
     .width-100{ width: 100%; clear: both; }
@@ -59,11 +59,9 @@
     <page_footer>
         <table class="footer-container">
             <tr><td class="width-100" style="text-align: center;">
-                <p>RRB / ITC</p>
-                <p>1300 Pennsylvania Avenue NW, Suite 470</p>
-                <p>Washington, DC 20004 USA</p>
-                <p>Telephone: +1 (202) 999-4245</p>
-                <p>www.immap.org</p>
+                    <p>10 rue Stanislas Torrents</p>
+                    <p>13006, Marseille, France</p>
+                    <p>3isolution.org</p>
             </td></tr>
         </table>
     </page_footer>

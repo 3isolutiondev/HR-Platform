@@ -31,13 +31,13 @@
         border-bottom: 1px solid #e6e6e6;
     }
     .immap-logo {
-        color: #be2126 !important;
+        color: #043C6E !important;
         font-family: 'Barlow', sans-serif !important;
         font-weight: 700 !important;
     }
 
-    .swagger-ui .topbar .download-url-wrapper input[type=text] { border: 2px solid #be2126; }
-    .swagger-ui .topbar .download-url-wrapper .download-url-button { background: #be2126; }
+    .swagger-ui .topbar .download-url-wrapper input[type=text] { border: 2px solid #043C6E; }
+    .swagger-ui .topbar .download-url-wrapper .download-url-button { background: #043C6E; }
   </style>
 </head>
 
@@ -82,7 +82,7 @@
         <div class="wrapper">
             <div class="topbar-wrapper">
                 <a rel="noopener noreferrer" class="link immap-logo">
-                    <img height="60" style="margin-right: 8px; margin-top: 4px;" src="{{ asset('images/immap-career-logo.png') }}" alt="iMMAP Careers API Documentation"/> iMMAP Careers
+                    <img style="margin-right: 8px; margin-top: 4px;" src="{{ asset('images/3islogo.png') }}" alt="3iSolution Careers API Documentation"/> 3iSolution Careers
                 </a>
                 <form class="download-url-wrapper">
                     <input type="text" class="download-url-input" value="http://localhost:8000/docs/api-docs.json">

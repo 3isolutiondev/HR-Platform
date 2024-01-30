@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = (theme) => ({
 	'page-container': {
 		marginTop: '76px',
-		'padding-bottom': '435px',
+		'padding-bottom': '275px',
 		[theme.breakpoints.only('sm')]: {
 			paddingBottom: '632px'
 		},

@@ -58,7 +58,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'careers@organization.org'),
-        'name' => env('MAIL_FROM_NAME', 'iMMAP Careers'),
+        'name' => env('MAIL_FROM_NAME', '3iSolution Careers'),
     ],
 
     /*

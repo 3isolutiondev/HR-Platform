@@ -29,14 +29,14 @@ body {
 	display: inline-block;
 }*/
 .color-red {
-	color: #be2126;
+	color: #043C6E;
 }
 .bold {
 	font-weight: bold;
 }
 .red-bar {
 	padding: 4px;
-	background: #be2126;
+	background: #043C6E;
 }
 .no-text {
 	height: 3.5mm;

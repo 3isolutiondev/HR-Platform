@@ -31,7 +31,7 @@ import { addFlashMessage } from '../../redux/actions/webActions';
  * ContractHistoryModal is a component to show the historic of user's contract.
  * @name ContractHistoryModal
  * @component
- * @category iMMAPer
+ * @category Consultant
  * @subcategory Contract History
  *
  */
@@ -88,7 +88,7 @@ class ContractHistoryModal extends Component {
 
         return (
             <Dialog open={isOpen} fullWidth maxWidth="xl" onClose={() => this.onClose()}>
-                 { !isFromProfile && 
+                 { !isFromProfile &&
                     <DialogTitle>Contract History : {selectedImmaper}
                         {isLoading && (
                             <CircularProgress size={22} thickness={5} className={classes.loading} />
@@ -109,12 +109,12 @@ class ContractHistoryModal extends Component {
                                 <CustomTableCell>Line Manager</CustomTableCell>
                                 <CustomTableCell>Start of Contract</CustomTableCell>
                                 <CustomTableCell>End of Contract</CustomTableCell>
-                                { !isFromProfile && 
+                                { !isFromProfile &&
                                     <CustomTableCell>Role</CustomTableCell>
                                 }
                                 <CustomTableCell>International Contract</CustomTableCell>
                                 <CustomTableCell>Under SBP Program</CustomTableCell>
-                                { !isFromProfile && 
+                                { !isFromProfile &&
                                      <CustomTableCell>Date creation</CustomTableCell>
                                 }
                             </TableRow>
@@ -134,14 +134,14 @@ class ContractHistoryModal extends Component {
                                     <CustomTableCell>{history.line_manager}</CustomTableCell>
                                     <CustomTableCell>{moment(history.start_of_contract).format('DD-MM-YYYY')}</CustomTableCell>
                                     <CustomTableCell>{moment(history.end_of_contract).format('DD-MM-YYYY')}</CustomTableCell>
-                                    { !isFromProfile && 
+                                    { !isFromProfile &&
                                         <CustomTableCell>{history.role}</CustomTableCell>
                                     }
                                     <CustomTableCell>{history.immap_contract_international ? 'Yes' : 'No'}</CustomTableCell>
                                     <CustomTableCell>{history.under_sbp_program ? 'Yes' : 'No'}</CustomTableCell>
-                                    { !isFromProfile && 
+                                    { !isFromProfile &&
                                         <CustomTableCell>{moment(history.created_at).format('DD-MM-YYYY')}</CustomTableCell>
-                                    }    
+                                    }
                                 </TableRow>
                             ))}
                         </TableBody>
@@ -184,8 +184,8 @@ ContractHistoryModal.propTypes = {
     */
     getAPI: PropTypes.func.isRequired,
 
-    /** 
-    * addFlashMessage prop: function to show flash message 
+    /**
+    * addFlashMessage prop: function to show flash message
     */
     addFlashMessage: PropTypes.func.isRequired,
 }

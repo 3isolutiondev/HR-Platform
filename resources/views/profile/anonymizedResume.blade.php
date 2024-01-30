@@ -120,14 +120,14 @@
             .light-grey-color{ color: #d7d7d7 !important; }
             .grey-color{ color: #787878 !important; }
             .white-color{ color: white !important; }
-            .immap-color{ color: #be2126 !important; }
+            .immap-color{ color: #043C6E !important; }
             .current-link{ text-decoration: none; }
-            .border-bottom-immap{ border-bottom: 1px solid #be2126; padding-bottom: 8px;}
+            .border-bottom-immap{ border-bottom: 1px solid #043C6E; padding-bottom: 8px;}
             .float-right{ float: right !important; }
             .display-block{ display: block !important; }
             .pre-line{ white-space: pre-line; }
             .bold{ font-weight: bold !important; }
-            /* .avatar{ border-radius: 50%; border: 2px solid #be2126; float: right; } */
+            /* .avatar{ border-radius: 50%; border: 2px solid #043C6E; float: right; } */
             @page {
                 size: a4;
                 margin: 26px;
@@ -138,13 +138,13 @@
             .font-light { font-weight: 300; }
             .font-regular { font-weight: 400;}
             .font-bold { font-weight: 700; }
-            .text-immap-primary { color: #be2126; }
+            .text-immap-primary { color: #043C6E; }
             .text-immap-secondary { color: #636d71; }
             .text-dark-grey{ color: #a7a9ac; }
             .text-light-grey{ color: #f0efef; }
             .text-darker-grey{ color: #414142 !important; }
             .bg-light-grey { background: #f0efef; }
-            .bg-primary, .line-primary { background: #be2126 !important; }
+            .bg-primary, .line-primary { background: #043C6E !important; }
             .bg-dark-grey, .line-dark-grey { background: #a7a9ac; }
             .text-name { font-size: 20px; }
             .text-title { font-size: 32px; }
@@ -183,7 +183,7 @@
                     }
                 @endphp
                 @if(!empty($profileId))
-                    <a class="current-link" href='{{$profileLink}}'><h4 class="font-light text-name text-immap-secondary">ID: {{ $profileId }}</h4></a> 
+                    <a class="current-link" href='{{$profileLink}}'><h4 class="font-light text-name text-immap-secondary">ID: {{ $profileId }}</h4></a>
                 @endif
 
                 {{-- Job Title --}}

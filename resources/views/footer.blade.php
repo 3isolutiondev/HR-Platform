@@ -1,5 +1,5 @@
 <style>
-   
+
     table {
         font-family: 'Barlow', sans-serif !important;
         font-size: 12pt;
@@ -22,10 +22,8 @@
 </style>
 <table class="footer-container">
     <tr><td style="text-align: center;">
-        <p>RRB / ITC</p>
-        <p>1300 Pennsylvania Avenue NW, Suite 470</p>
-        <p>Washington, DC 20004 USA</p>
-        <p>Telephone: +1 (202) 999-4245</p>
-        <p>www.immap.org</p>
+            <p>10 rue Stanislas Torrents</p>
+            <p>13006, Marseille, France</p>
+            <p>3isolution.org</p>
     </td></tr>
 </table>

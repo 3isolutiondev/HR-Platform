@@ -8,6 +8,6 @@ We sincerely appreciate your contribution. Please rest assured all the informati
 
 Best Regards,</br>
 
-iMMAP Careers
+3iSolution Careers
 @endcomponent
 

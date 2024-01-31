@@ -142,8 +142,8 @@ export const isValid = () => (dispatch, getState) => {
 		}
 
 		if (is_immap_inc == 0 && is_immap_france == 0) {
-			errors.is_immap_inc = 'Choose one of iMMAP Headquarter';
-			errors.is_immap_france = 'Choose one of iMMAP Headquarter';
+			errors.is_immap_inc = 'Choose one of 3iSolution Headquarter';
+			errors.is_immap_france = 'Choose one of 3iSolution Headquarter';
 		}
 	}
 

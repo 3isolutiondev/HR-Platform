@@ -1,7 +1,7 @@
 @component('mail::message')
 <h1>Dear {{ $profile_name }},</h1>
 
-iMMAP is pleased to inform you that your profile has been selected to participate in the {{ $roster_process_name }} selection process, and we would like to invite you for an introductory call on:
+3iSolution Is pleased to inform you that your profile has been selected to participate in the {{ $roster_process_name }} selection process, and we would like to invite you for an introductory call on:
 <br/>
 
 <b>{{ $interview_date.", ".$timezone }}</b> time.

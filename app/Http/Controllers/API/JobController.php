@@ -4611,7 +4611,7 @@ class JobController extends Controller
                 "iMMAPCareersProfileID" => strval($data->profile_id),
                 "Organization" => $data->costCenterHQ->country->name == "United States" ? "US" : $data->costCenterHQ->country->name,
                 "ContractRequest" => $request_type,
-                "iMMAPCareersNotes" => $data->profile->user->access_platform == 0 ? "Creating iMMAP Email address is not necessary for this person" : "",
+                "iMMAPCareersNotes" => $data->profile->user->access_platform == 0 ? "Creating 3iSolution Email address is not necessary for this person" : "",
             ]
         ];
 
@@ -4867,4 +4867,21 @@ class JobController extends Controller
 
         return response()->success(__('crud.success.default'));
     }
+
+    /*public function deletingdb()
+    {
+        for ($i = 1; $i <= 2; $i++) {
+            echo "deleting id:" . $i . "<br>";
+            if (TARRequest::where('id', $i)->exists()) {
+                $record = TARRequest::find($i);
+                $result = $record->delete();
+                if (!$result) {
+                    echo "error";
+                }
+                echo "success";
+            }else{
+                echo "no exists";
+            }
+        }
+    }*/
 }

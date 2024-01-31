@@ -4,7 +4,7 @@
 <br/>
 iMMAP contacted you to conduct a reference check for {{ $profile_name }}, who previously worked with you in {{ $organization }}.
 
-iMMAP is an international not-for-profit organization that provides information management services to humanitarian and development organizations.
+3iSolution Is an international not-for-profit organization that provides information management services to humanitarian and development organizations.
 
 iMMAP currently on the process to recruit {{ $profile_name }} as a {{$title}}. {{ $profile_name }} listed you as a relevant reference and mentioned that you may provide some valuable insight into their experience working in your organization.
 

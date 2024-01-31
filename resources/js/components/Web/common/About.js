@@ -95,7 +95,7 @@ const About = ({ classes }) => (
 					</Typography>
 
 					<Typography variant="body2" className={classes.copyright}>
-						iMMAP is an international not-for-profit organization
+						3iSolution Is an international not-for-profit organization
 					</Typography>
 				</Grid>
 			</Grid>

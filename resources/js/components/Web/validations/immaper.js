@@ -77,7 +77,7 @@ export function validateImmaper(data) {
 	}
 
 	if (data.is_immap_inc == 0 && data.is_immap_france == 0) {
-		errors.is_immap_headquarter = 'Please choose at least one of iMMAP Headquarter';
+		errors.is_immap_headquarter = 'Please choose at least one of 3iSolution Headquarter';
 	}
 
 	if (validator.isEmpty(data.immap_contract_international)) {

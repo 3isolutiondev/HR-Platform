@@ -35,7 +35,7 @@ import PreviouslySubmittedApplicationForUnForm from '../../p11/previouslySubmitt
 import Alert from '../../../common/Alert';
 
 /**
- * WorkedWithiMMAP is a component to show previously worked with iMMAP data in profile page.
+ * WorkedWith3iSolution Is a component to show previously worked with iMMAP data in profile page.
  *
  * @name WorkedWithiMMAP
  * @component

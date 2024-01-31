@@ -20,7 +20,7 @@ class ApplicantRosterRejected extends Mailable
     {
         $this->applicant_name = $applicant_name;
         $this->roster_name = $roster_name;
-        $this->title = 'Thank you to join iMMAP ' . $roster_name . ' Selection Process';
+        $this->title = 'Thank you to join 3iSolution ' . $roster_name . ' Selection Process';
     }
 
     /**

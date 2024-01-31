@@ -35,6 +35,6 @@ class CompletedProfileJobSendInvitation extends Mailable
      */
     public function build()
     {
-        return $this->subject("iMMAP Job Invitation - ".$this->job_title)->markdown('mail.completedprofilejobsendinvitation');
+        return $this->subject("3iSolution Job Invitation - ".$this->job_title)->markdown('mail.completedprofilejobsendinvitation');
     }
 }

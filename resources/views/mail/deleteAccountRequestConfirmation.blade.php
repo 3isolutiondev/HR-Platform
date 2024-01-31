@@ -17,7 +17,7 @@ If you are sure that you want to delete the account linked to the email address 
 Remove my account
 @endcomponent
 
-The above link is valid during 1 hour. After this period, you will need to request another link from your profile page: <a href="https://careers.immap.org/profile">{{ config('app.name') }}</a>.
+The above link is valid during 1 hour. After this period, you will need to request another link from your profile page: <a href="https://careers.3isolution.org/profile">{{ config('app.name') }}</a>.
 
 If you decide to start using 3iSolution Careers in the future, you will have the option to register your account with this email address again.
 

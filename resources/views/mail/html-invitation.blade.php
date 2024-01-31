@@ -337,7 +337,7 @@
                                     <td class="content-cell">
                                         <h1>Dear {{ $profile->user->full_name }},</h1>
 
-                                        <p>iMMAP is looking for {{ $job->title }}</p>
+                                        <p>3iSolution Is looking for {{ $job->title }}</p>
                                         <p>We were really impressed with your Profile on our site. Please see our job posting by clicking button below.</p>
 
                                         <table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">

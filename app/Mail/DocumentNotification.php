@@ -41,12 +41,12 @@ class DocumentNotification extends Mailable
 
         if($this->emailtemplate=='country') {
 
-            return $this->subject('New iMMAP Policy : '.$this->document['name'])
+            return $this->subject('New 3iSolution Policy : '.$this->document['name'])
                 ->bcc($this->nbcc)
                 ->markdown('mail.document')->attach($location);
 
         } else {
-            return $this->subject('New iMMAP Policy : '.$this->document['name'])
+            return $this->subject('New 3iSolution Policy : '.$this->document['name'])
                 ->markdown('mail.document')->attach($location);
         }
 

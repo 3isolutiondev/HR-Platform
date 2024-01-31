@@ -39,7 +39,7 @@ class SkypeInvitation extends Mailable
     public function build()
     {
         if($this->roster_step->slug == '3-heads-questions' && $this->under_sbp_program){
-            return $this->subject('iMMAP '.$this->roster_process.' - Pre-interview invitation')->markdown('mail.skypeInvitation');
+            return $this->subject('3iSolution '.$this->roster_process.' - Pre-interview invitation')->markdown('mail.skypeInvitation');
         }
         return $this->subject('Application to the '.$this->roster_process)->markdown('mail.skypeInvitation');
     }

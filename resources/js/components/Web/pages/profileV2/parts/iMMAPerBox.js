@@ -155,11 +155,11 @@ class iMMAPerBox extends Component {
                         className={classes.faIcon}
                       />
                     </Tooltip>{" "}
-                    iMMAP inc.{" "}
-                    <Tooltip title="United States of America">
+                    3iSolution{" "}
+                    <Tooltip title="France">
                       <div className={classes.countryAvatar}>
                         <ReactCountryFlag
-                          code="us"
+                          code="fr"
                           svg
                           styleProps={flag}
                           className={classes.countryAvatar}

@@ -53,8 +53,8 @@ export function validate(data) {
 	}
 
 	if (data.is_immap_inc == 0 && data.is_immap_france == 0) {
-		errors.is_immap_inc = 'Choose one of iMMAP Headquarter';
-		errors.is_immap_france = 'Choose one of iMMAP Headquarter';
+		errors.is_immap_inc = 'Choose one of 3iSolution Headquarter';
+		errors.is_immap_france = 'Choose one of 3iSolution Headquarter';
 	}
 
 	if (data.jobStandard.sbp_recruitment_campaign != "yes") {
@@ -85,19 +85,19 @@ export function validate(data) {
 		if (isEmpty(data.organization)) {
 			errors.organization = 'Host Agency is required';
 		}
-		
+
 		if(data.jobStandard.under_sbp_program === 'yes'){
 			if (isEmpty(data.cluster_seconded)) {
 				errors.cluster_seconded = 'Cluster Seconded is required';
 			}
-		} 
-		
+		}
+
 		if (validator.isEmpty(data.min_salary)) {
 			errors.min_salary = 'Minimum fees is required';
 		} else if (!validator.isInt(data.min_salary)) {
 			errors.min_salary = 'Invalid minimum fees data';
 		}
-	
+
 		if (validator.isEmpty(data.max_salary)) {
 			errors.max_salary = 'Maximum fees is required';
 		} else if (!validator.isInt(data.max_salary)) {
@@ -117,14 +117,14 @@ export function validate(data) {
 		}
 	}
 
-	if (data.jobStandard.sbp_recruitment_campaign == "no" && data.jobStandard.under_sbp_program == "no") { 
+	if (data.jobStandard.sbp_recruitment_campaign == "no" && data.jobStandard.under_sbp_program == "no") {
 		if (isEmpty(data.immap_office)) {
 			errors.immap_office = 'iMMAP Office is required';
 		} else if (!validator.isInt(data.immap_office.value.toString())) {
 			errors.immap_office = 'Invalid iMMAP Office Data';
 		}
 	 }
-	
+
 	if (validator.isEmpty(relationship)) {
 		errors.relationship = 'Status is required';
 	} else if (!validator.isLength(relationship, { min: 3 })) {

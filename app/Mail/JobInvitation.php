@@ -39,6 +39,6 @@ class JobInvitation extends Mailable
      */
     public function build()
     {
-        return $this->subject("iMMAP Job Invitation - ".$this->job->title)->markdown('mail.invitation');
+        return $this->subject("3iSolution Job Invitation - ".$this->job->title)->markdown('mail.invitation');
     }
 }

@@ -33,6 +33,6 @@ class JobAccepted extends Mailable
      */
     public function build()
     {
-        return $this->subject("iMMAP Contract - ".$this->job_title)->markdown('mail.jobAccepted');
+        return $this->subject("3iSolution Contract - ".$this->job_title)->markdown('mail.jobAccepted');
     }
 }

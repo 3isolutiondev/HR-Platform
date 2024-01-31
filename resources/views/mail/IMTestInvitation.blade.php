@@ -2,7 +2,7 @@
 <h1>Dear {{ $profile_name }},</h1>
 
 <br/>
-iMMAP is delighted to inform you that your application is moving forward in the iMMAP Roster selection process, and we would like to invite you to take an Information Management test to assess your technical skills.
+3iSolution Is delighted to inform you that your application is moving forward in the iMMAP Roster selection process, and we would like to invite you to take an Information Management test to assess your technical skills.
 
 Please be informed that the test will take <b>4 hours</b> to be completed and only one access to the test is authorized.
 

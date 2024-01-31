@@ -73,7 +73,7 @@ class SettingController extends Controller
      *                  property="name",
      *                  type="string",
      *                  description="Setting name",
-     *                  example="iMMAP HQ Address"
+     *                  example="3iSolution HQ Address"
      *              ),
      *              @SWG\Property(
      *                  property="value",
@@ -115,7 +115,7 @@ class SettingController extends Controller
      *              property="name",
      *              type="string",
      *              description="Setting name",
-     *              example="iMMAP HQ Address"
+     *              example="3iSolution HQ Address"
      *          ),
      *          @SWG\Property(
      *              property="value",

@@ -67,8 +67,8 @@ const CookiePolicy = ({ classes, setShowCookieConsent }) => (
 			<p>
 				This Cookie Policy states why and how 3iSolution uses cookies and similar technologies when you visit our
 				website at{' '}
-				<a href="https://careers.immap.org" className={classes.link}  target="_blank">
-					https://careers.immap.org
+				<a href="https://careers.3isolution.org" className={classes.link}  target="_blank">
+					https://careers.3isolution.org
 				</a>. It explains what these technologies are and why we use them, as well as your rights to control our
 				use of them.
 				<b />

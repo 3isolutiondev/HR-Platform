@@ -455,7 +455,7 @@ class P11Form1 extends Component {
 														className={classes.check}
 													/>
 												}
-												label="iMMAP inc."
+												label="3iSolution"
 											/>
 											{!isEmpty(errors.is_immap_inc) && (
 												<FormHelperText>{errors.is_immap_inc}</FormHelperText>

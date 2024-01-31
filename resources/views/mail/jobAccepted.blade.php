@@ -3,7 +3,7 @@
 
 <br/>
 Thank you for the interview.
-iMMAP is delighted to offer you the <b>{{ $job_title }}</b> position.
+3iSolution Is delighted to offer you the <b>{{ $job_title }}</b> position.
 
 HR Manager will reach out to you in the coming days in order to send you your contract and HR documentations.
 
@@ -20,7 +20,7 @@ Thank you and best regards,<br>
 <br/>
 Thank you for the interview.
 
-iMMAP is delighted to offer you the <b>{{ $job_title }}</b> position.
+3iSolution Is delighted to offer you the <b>{{ $job_title }}</b> position.
 
 Should you accept, you will be contacted in the coming days to discuss more details and schedule introduction briefings.
 

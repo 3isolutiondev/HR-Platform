@@ -138,7 +138,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			<Typography variant="body1" component="p">
 				3iSolution will keep your details up to 5 years starting from the moment you enter the data; you edit your
 				profile or apply for a position through 3iSolution Careers. However, deletion of the entirety of your details
-				is possible by contacting the 3iSolution Careers administrator by email at immapcareers@organization.org.
+				is possible by contacting the 3iSolution Careers administrator by email at it@immapfr.org.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">

@@ -231,24 +231,24 @@
                             }
                         @endphp
                         <div class="margin-bottom-sm">
-                            <img src="https://careers.immap.org/img/resume/phone.png" class="margin-right-sm flag"/>
+                            <img src="https://careers.3isolution.org/img/resume/phone.png" class="margin-right-sm flag"/>
                             <div class="text-darker-grey text-contact line-height-contact">{{ $primaryPhone->phone }}</div>
                         </div>
                     @endif
                 @endif
                 <div class="margin-bottom-sm">
-                    <img src="https://careers.immap.org/img/resume/email.png" class="margin-right-sm flag"/>
+                    <img src="https://careers.3isolution.org/img/resume/email.png" class="margin-right-sm flag"/>
                     <a href="mailto:{{ $profile->user->email }}" class="text-darker-grey text-contact line-height-contact">{{ $profile->user->email }}</a>
                 </div>
                 @if(!empty($profile->skype))
                     <div class="margin-bottom-sm">
-                        <img src="https://careers.immap.org/img/resume/skype.png" class="margin-right-sm flag"/>
+                        <img src="https://careers.3isolution.org/img/resume/skype.png" class="margin-right-sm flag"/>
                         <a href="{{ $profile->skype }}" class="text-darker-grey text-contact line-height-contact">{{ $profile->skype }}</a>
                     </div>
                     @endif
                 @if(!empty($profile->linkedin_url))
                     <div class="margin-bottom-md">
-                        <img src="https://careers.immap.org/img/resume/Linkedin.png" class="margin-right-sm flag"/>
+                        <img src="https://careers.3isolution.org/img/resume/Linkedin.png" class="margin-right-sm flag"/>
                         <a href="{{ $profile->linkedin_url }}" class="text-darker-grey text-contact line-height-contact">
                             @if(strlen($profile->linkedin_url) > 60)
                                 {{ substr($profile->linkedin_url, 0, 60) . '...' }}

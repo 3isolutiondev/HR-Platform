@@ -1047,7 +1047,7 @@ class RosterController extends Controller
                 Thank you and best regards,<br />
                 3iSolution Careers</p>';
             } else {
-                $eventBody='<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear '.$user->full_name.'</span>,<br /><br />iMMAP is pleased to inform you that your profile has been selected to participate in the iMMAP <strong>'.$roster_process->name.'</strong> selection process.<br /><br />we would like to invite you for an online introductory call using the link from below (Microsoft Teams).<br />
+                $eventBody='<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear '.$user->full_name.'</span>,<br /><br />3iSolution is pleased to inform you that your profile has been selected to participate in the 3iSolution <strong>'.$roster_process->name.'</strong> selection process.<br /><br />we would like to invite you for an online introductory call using the link from below (Microsoft Teams).<br />
                 Proposed date: <strong>'.date('l, d F Y, H:i', strtotime($validatedData['interview_date'])).' '.$validatedData['interview_timezone'].' time</strong>.<br /><br />
                 Please confirm the scheduled interview by accepting this online meeting invite. Alternatively, please reply to '.$hr_profile->immap_email.' with your suggested date and time.<br /><br />
                 <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
@@ -1622,20 +1622,20 @@ class RosterController extends Controller
         $event['eventEnd'] = Carbon::parse($validatedData['interview_date'])->addMinutes(45)->format('l, d F Y, H:i');
         $event['eventStart'] = date('l, d F Y, H:i', strtotime($validatedData['interview_date']));
         $event['timezone'] = $validatedData['interview_timezone'];
-        $eventBody='<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear applicant </span>,<br /><br />You have applied to join the iMMAP Surge Roster. We invite you to attend the "iMMAP Surge Overview" presentation at the proposed
+        $eventBody='<p style="font-size:16px;color:#74787e;line-height:1.4"><span style="color:black;font-weight:bold;">Dear applicant </span>,<br /><br />You have applied to join the 3iSolution Surge Roster. We invite you to attend the "3iSolution Surge Overview" presentation at the proposed
              <strong>'.date('l, d F Y, H:i', strtotime($validatedData['interview_date'])).' '.$validatedData['interview_timezone'].' time</strong>.<br /><br />
              The presentation itself will last 30 minutes and you will have the opportunity to ask questions at the end of the presentation. Here is the content of the presentation:<br />
                 <ul style="font-size:16px;color:#74787e;line-height:1.4">
                     <li>iMMAP: international not-for-profit organization that provides information management services to humanitarian and development organizations.</li>
-                    <li>iMMAP Global Surge Team.</li>
+                    <li>3iSolution Global Surge Team.</li>
                     <li>Standby Partnership Programme and the deployment mechanisms.</li>
-                    <li>The iMMAP Global Surge Roster and the steps to become member.</li>
-                    <li>What iMMAP offers once you are deployed through the SBP Programme.</li>
+                    <li>The 3iSolution Global Surge Roster and the steps to become member.</li>
+                    <li>What 3iSolution offers once you are deployed through the SBP Programme.</li>
                 </ul>
-            <span style="font-size:16px;color:#74787e;line-height:1.4"><a href="https://immap.sharepoint.com/:p:/s/GlobalSurge/EZa0o1_8YTpIjB8sBu5W0UwBuNdr-oUge9hje8mARg1CXw?rtime=pwoSocnX2kg">Link</a>  to iMMAP Global Surge Presentation</span><br /><br />
+            <span style="font-size:16px;color:#74787e;line-height:1.4"><a href="https://immap.sharepoint.com/:p:/s/GlobalSurge/EZa0o1_8YTpIjB8sBu5W0UwBuNdr-oUge9hje8mARg1CXw?rtime=pwoSocnX2kg">Link</a>  to 3iSolution Global Surge Presentation</span><br /><br />
             <span style="font-size:16px;color:#74787e;line-height:1.4"><a href="https://immap.sharepoint.com/:w:/s/GlobalSurge/ETENvD7zGHhMhw0WfFkIvF0BafGHuQDsi3Rc7gDOz72ZPg?e=qWfhAQ">Link</a> to Q&A Roster Process</span><br /><br />
             <span style="font-size:16px;color:#74787e;line-height:1.4"><a href="https://mywebsite.org/global-surge-program/">Link</a> to Global Surge website</span><br /><br />
-            <span style="font-size:16px;color:#74787e;line-height:1.4">iMMAP website: <a href="https://mywebsite.org"> immap.org</a></span><br /><br /><br />
+            <span style="font-size:16px;color:#74787e;line-height:1.4">3iSolution website: <a href="https://mywebsite.org"> immap.org</a></span><br /><br /><br />
             <span style="padding-top: 10px;padding-bottom: 10px;font-size:16px;color:#74787e;line-height:1.4"><b>Additional Comments</b></br><i>'.nl2br($validatedData['commentText']).'</i></span><br /><br />
             <span style="font-size:16px;color:#74787e;line-height:1.4">Please acknowledge receipt by validating your presence.</span><br />
             <span style="font-size:16px;color:#74787e;line-height:1.4">

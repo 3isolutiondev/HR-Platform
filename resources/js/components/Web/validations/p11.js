@@ -296,14 +296,14 @@ export function validateP11Form1(data) {
     if (isEmpty(immap_office)) {
       errors.immap_office = "iMMAP Office is required";
     } else if (!validator.isInt(immap_office.value.toString())) {
-      errors.immap_office = "Invalid iMMAP Office data";
+      errors.immap_office = "Invalid 3iSolution Office data";
     }
 
     if (is_immap_inc == 0 && is_immap_france == 0) {
       errors.is_immap_inc =
-        "Choose the iMMAP Headquarters where you are currently employed";
+        "Choose the 3iSolution Headquarters where you are currently employed";
       errors.is_immap_france =
-        "Choose the iMMAP Headquarters where you are currently employed";
+        "Choose the 3iSolution Headquarters where you are currently employed";
     }
   }
 
@@ -471,7 +471,7 @@ export function validateP11Form2(data) {
     validator.isEmpty(data.previously_submitted_application_for_UN.toString())
   ) {
     errors.previously_submitted_application_for_UN =
-      "Previously worked with iMMAP is required";
+      "Previously worked with 3iSolution Is required";
   } else if (
     !validator.isBoolean(
       data.previously_submitted_application_for_UN.toString()

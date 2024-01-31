@@ -38,6 +38,6 @@ class NotImmap implements Rule
      */
     public function message()
     {
-        return 'You cannot use iMMAP email address.';
+        return 'You cannot use 3iSolution email address.';
     }
 }

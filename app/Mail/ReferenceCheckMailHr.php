@@ -33,6 +33,6 @@ class ReferenceCheckMailHr extends Mailable
      */
     public function build()
     {
-        return $this->subject('iMMAP Reference Check Received for '.$this->title.' - '.$this->profile_name.' by '.$this->reference_name)->markdown('mail.ReferenceCheckInvitationReceptionForHr');
+        return $this->subject('3iSolution Reference Check Received for '.$this->title.' - '.$this->profile_name.' by '.$this->reference_name)->markdown('mail.ReferenceCheckInvitationReceptionForHr');
     }
 }

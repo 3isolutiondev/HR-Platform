@@ -14,7 +14,7 @@
                           <img style="width: 24px;height:24px;" src="{{ asset('img/linkedin.png') }}"/>
                         </a>
                     </p>
-                    <p>iMMAP is an international not-for-profit organization</p>
+                    <p>3iSolution Is an international not-for-profit organization</p>
                     <p style="margin-top:20px">1300 Pennsylvania Avenue, N.W., Suite 470 Washington DC 20004 <br />10 rue Stanislas Torrents, 13006 Marseille, France </p>
                     <p style="margin-top:20px"><a style="color:white" href="https://mywebsite.org">www.immap.org</a> |
                        <a style="color:white" href="mailto:info@organization.org">info@organization.org </a>

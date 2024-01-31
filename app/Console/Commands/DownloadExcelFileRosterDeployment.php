@@ -22,7 +22,7 @@ class DownloadExcelFileRosterDeployment extends Command
      *
      * @var string
      */
-    protected $description = 'This script is to download Roster deployement excel file from iMMAP Microsoft oneDrive daily';
+    protected $description = 'This script is to download Roster deployement excel file from 3iSolution Microsoft oneDrive daily';
 
     /**
      * Create a new command instance.

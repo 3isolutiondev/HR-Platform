@@ -39,7 +39,7 @@ class ThreeHeadsInvitation extends Mailable
      */
     public function build()
     {
-        if(strpos($this->roster_process_name, 'iMMAP') === false) $this->roster_process_name = 'iMMAP '.$this->roster_process_name;
+        if(strpos($this->roster_process_name, 'iMMAP') === false) $this->roster_process_name = '3iSolution '.$this->roster_process_name;
         return $this->subject($this->roster_process_name.' -  Pre-interview invitation')->markdown('mail.ThreeHeadsInvitation');
     }
 }

@@ -35,6 +35,6 @@ class CompletedProfileRosterSendInvitation extends Mailable
      */
     public function build()
     {
-        return $this->subject("iMMAP Roster Invitation")->markdown('mail.completedprofilerostersendinvitation');
+        return $this->subject("3iSolution Roster Invitation")->markdown('mail.completedprofilerostersendinvitation');
     }
 }

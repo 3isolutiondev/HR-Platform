@@ -521,7 +521,7 @@ class ToRForm extends Component {
    */
 	switchOnChange(e) {
 		const defaultMailingAddress = {
-			is_immap_inc: 'RRB / ITC, 1300 Pennsylvania Avenue NW, Suite 470, Washington, DC 20004 USA',
+			is_immap_inc: '10 rue Stanislas Torrents - 13006 Marseille',
 			is_immap_france: '10 rue Stanislas Torrents - 13006 Marseille'
 		}
 		if (this.props.torForm[e.target.name]) {

@@ -36,6 +36,6 @@ class IMTestInvitation extends Mailable
      */
     public function build()
     {
-        return $this->subject('Invitation to the iMMAP Information Management Test')->markdown('mail.IMTestInvitation');
+        return $this->subject('Invitation to the 3iSolution Information Management Test')->markdown('mail.IMTestInvitation');
     }
 }

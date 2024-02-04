@@ -7,7 +7,7 @@ import validator from 'validator';
 import { getBio } from '../../actions/profile/bioActions';
 import { logoutUser } from '../../actions/authActions';
 
-export const getAlreadyIMMAPer = (id) => (dispatch) => {
+export const getAlreadyImmaper = (id) => (dispatch) => {
   if (id !== false) {
     id = isEmpty(id) ? '' : id;
     id = id === true ? '' : id;

@@ -26,10 +26,10 @@ import {
   blueIMMAPHover
 } from "../../../config/colors";
 import {
-  getAlreadyIMMAPer,
+  getAlreadyImmaper,
   resetAlreadyiMMAPer,
   verifyEmail,
-} from '../../../redux/actions/profile/iMMAPerActions';
+} from '../../../redux/actions/dashboard/immaperActions';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons/faCheckCircle";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons/faTimesCircle";
@@ -60,13 +60,13 @@ class iMMAPerBox extends Component {
 
   componentDidMount() {
     if (this.props.profileID !== false) {
-      this.props.getAlreadyIMMAPer(this.props.profileID);
+      this.props.getAlreadyImmaper(this.props.profileID);
     }
   }
 
   componentDidUpdate(prevProps) {
     if ((this.props.profileID !== prevProps.profileID) && this.props.profileID !== false) {
-      this.props.getAlreadyIMMAPer(this.props.profileID);
+      this.props.getAlreadyImmaper(this.props.profileID);
     }
   }
 
@@ -365,7 +365,7 @@ class iMMAPerBox extends Component {
  * @property {object} mapDispatchToProps - contain redux actions to be used in component via props
  */
 const mapDispatchToProps = {
-  getAlreadyIMMAPer,
+  getAlreadyImmaper,
   resetAlreadyiMMAPer,
   verifyEmail,
 };

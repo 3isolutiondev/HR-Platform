@@ -29,7 +29,7 @@ import {
   getAlreadyImmaper,
   resetAlreadyiMMAPer,
   verifyEmail,
-} from '../../../redux/actions/dashboard/immaperActions';
+} from "../../../redux/actions/profile/immaperActions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons/faCheckCircle";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons/faTimesCircle";

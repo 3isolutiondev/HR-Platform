@@ -177,8 +177,8 @@ class ImmaperForm extends Component {
 					<Grid container spacing={16} alignItems="flex-end">
 						<Grid item xs={12} sm={12}>
 							<Typography variant="h5" component="h3">
-								{isEdit && 'Edit iMMAPer : ' + full_name}
-								{!isEdit && 'Add iMMAPer'}
+								{isEdit && 'Edit Consultant : ' + full_name}
+								{!isEdit && 'Add Consultant'}
 							</Typography>
 						</Grid>
 
@@ -194,7 +194,7 @@ class ImmaperForm extends Component {
 											className={classes.check}
 										/>
 									}
-									label="iMMAP inc."
+									label="3iSolution"
 								/>
 							</FormControl>
 							<FormControl margin="none">

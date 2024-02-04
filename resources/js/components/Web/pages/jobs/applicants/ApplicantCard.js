@@ -1032,11 +1032,11 @@ class ApplicantCard extends Component {
               <Grid container spacing={16} alignItems="center">
                 <Grid item xs={12} md={12} lg={12}>
                   <SelectField
-                    label="Select iMMAPer for join interview *"
+                    label="Select Consultant for join interview *"
                     options={immapers}
                     value={immaper_invite}
                     onChange={this.selectOnChange}
-                    placeholder="Select iMMAPer"
+                    placeholder="Select Consultant"
                     name="immaper_invite"
                     error={errors.immaper_invite}
                     required

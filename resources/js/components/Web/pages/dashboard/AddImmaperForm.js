@@ -163,7 +163,7 @@ class AddImmaperForm extends Component {
 											className={classes.check}
 										/>
 									}
-									label="iMMAP inc."
+									label="3iSolution"
 								/>
 							</FormControl>
 							<FormControl margin="none">

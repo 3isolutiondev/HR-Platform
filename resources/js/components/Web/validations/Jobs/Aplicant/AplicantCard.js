@@ -17,9 +17,9 @@ export function validateAplicantData(data) {
 	}
 
 	if (!Array.isArray(data.immaper_invite)) {
-		errors.immaper_invite = 'Invite iMMAPer is required';
+		errors.immaper_invite = 'Invite Consultant is required';
 	} else if (data.immaper_invite.length < 1) {
-		errors.immaper_invite = 'Invite iMMAPer is required';
+		errors.immaper_invite = 'Invite Consultant is required';
 	}
 
 	return {

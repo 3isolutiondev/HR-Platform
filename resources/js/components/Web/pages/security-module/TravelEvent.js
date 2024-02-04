@@ -192,7 +192,7 @@ class TravelEvent extends Component {
                                                     <td colSpan={event.travel_type !== 'multi-location' ? 6 : 9}>{event.transportation_travel_type}</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><b>iMMAPer:</b></td>
+                                                    <td><b>Consultant:</b></td>
                                                     <td colSpan="16">{event.immaper}</td>
                                                 </tr>
                                                 {event.travel_type !== 'multi-location' &&

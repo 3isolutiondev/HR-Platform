@@ -70,8 +70,8 @@ export const isValid = () => (dispatch, getState) => {
 	if (!validator.isEmpty(immap_email)) {
 		if (!validator.isEmail(immap_email)) {
 			errors.immap_email = 'Invalid email address';
-		} else if (!/@organization.org*$/.test(immap_email)) {
-			errors.immap_email = 'Invalid iMMAP email address';
+		} else if (!/@immapfr.org*$/.test(data.immap_email) && !/@3isolution.org*$/.test(data.immap_email)) {
+			errors.immap_email = 'Invalid 3iSolution email address';
 		}
 	}
 

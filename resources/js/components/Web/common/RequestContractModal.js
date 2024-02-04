@@ -180,7 +180,6 @@ class RequestContractModal extends Component {
           contract_end: isEmpty(this.props.profile.interview_request_contract[0].contract_end) ? moment(this.props.contract_end) : moment(this.props.profile.interview_request_contract[0].contract_end),
           under_surge_program: this.props.profile.interview_request_contract[0].under_surge_program === 0 ? false : true,
           request_status: this.props.profile.interview_request_contract[0].request_status,
-          request_status: this.props.profile.interview_request_contract[0].request_status
         }, () => this.isValid())
       } else {
         this.resetForm();
@@ -233,9 +232,7 @@ class RequestContractModal extends Component {
         request_type: this.props.defaultRequest,
         contract_start: moment(this.props.immaper.end_of_current_contract),
         contract_end: moment(this.props.immaper.end_of_current_contract).add(6, 'M'),
-        project_code: this.props.immaper.project_code,
         position: this.props.immaper.job_position,
-        duty_station: this.props.immaper.duty_station,
         monthly_rate: this.props.immaper.monthly_rate == 0 ? '' : this.props.immaper.monthly_rate,
         cost_center: this.props.immaper.cost_center != null ? this.props.immaper.cost_center : '',
         currency: this.props.immaper.currency != null ? this.props.immaper.currency : '',
@@ -506,7 +503,7 @@ class RequestContractModal extends Component {
 
     const disabledSendAndSaveBtn = request_status == "sent" ? true : false;
     let checkImmapOffice = request_type != 'new-contract' ? null : this.props.immap_office_id;
-  
+
     return (
       <div>
         <Dialog open={isOpen} fullWidth maxWidth="lg" onClose={this.onClose}>

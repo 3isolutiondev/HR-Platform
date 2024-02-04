@@ -30,6 +30,6 @@
         @else
         <p>{{ $mailingAddress }}</p>
         @endif
-        <p>www.immap.org</p>
+        <p>3isolution.org</p>
     </td></tr>
 </table>

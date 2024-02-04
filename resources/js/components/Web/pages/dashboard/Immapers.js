@@ -506,7 +506,7 @@ class iMMAPers extends React.Component {
           status_contract,
           project_code,
         };
-    
+
         // create query parameter
         const queryStringData = Object.keys(filterData).map(key => {
           if (!isEmpty(filterData[key])) {
@@ -517,7 +517,7 @@ class iMMAPers extends React.Component {
             }
           }
         });
-    
+
         const queryString = queryStringData.filter(function (element) {
           return element !== undefined;
         }).join('&');
@@ -545,7 +545,7 @@ class iMMAPers extends React.Component {
               text: 'There is an error while processing the request'
             });
           });
-      }          
+      }
     }
 
    /**
@@ -576,7 +576,7 @@ class iMMAPers extends React.Component {
     if (!('project_code' in valuesQueryString)) {
 		  this.props.onChangeImmaperFilter('project_code', [])
 		}
-	
+
 		// querystring map
 		Object.keys(valuesQueryString).map(key => {
         if (key === "search") {
@@ -624,7 +624,7 @@ class iMMAPers extends React.Component {
     handleOpenImportModel() {
       this.setState({ openImportImmmapers: true });
     }
-  
+
    /**
    * handleCloseImportModel is a function to close the import immapers model
    */
@@ -921,15 +921,15 @@ class iMMAPers extends React.Component {
                 })
               }>
               <Add /> Create Contract Request for Offline User
-            </Button> 
+            </Button>
             <Button
               className={classes.importBtn}
               variant='contained'
               size='small'
               onClick={() => this.handleOpenImportModel() }>
-              <Add /> Import iMMAPers
+              <Add /> Import Consultants
             </Button>
-            </>            
+            </>
           );
         }
 
@@ -951,10 +951,10 @@ class iMMAPers extends React.Component {
     return (
       <Grid container spacing={24}>
         <Helmet>
-          <title>{APP_NAME + " - Dashboard > iMMAPer List"}</title>
+          <title>{APP_NAME + " - Dashboard > Consultant List"}</title>
           <meta
             name='description'
-            content={APP_NAME + " Dashboard > iMMAPer List"}
+            content={APP_NAME + " Dashboard > Consultant List"}
           />
         </Helmet>
            {width != 'sm' && width != 'xs' && (
@@ -969,7 +969,7 @@ class iMMAPers extends React.Component {
                className={width == 'sm' || width == 'xs' ? classes.immapersListContainer : ''}
               >
                 <MUIDataTable
-                  title={"iMMAPers List"}
+                  title={"Consultants List"}
                   data={immapers}
                   columns={columns}
                   options={options}
@@ -1011,7 +1011,7 @@ class iMMAPers extends React.Component {
           />
           <Modal
               open={openImportImmmapers}
-              title="Import iMMAPers (excel file)"
+              title="Import Consultants (excel file)"
               handleClose={() => this.handleCloseImportModel()}
               maxWidth="md"
               scroll="body"

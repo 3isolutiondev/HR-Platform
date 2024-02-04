@@ -175,7 +175,7 @@ class RequestContractForm extends Component {
       position,
       immap_office_id: immap_office.value,
     };
-    
+
     if (isSend) {
       data.id = id;
     }
@@ -911,7 +911,7 @@ class RequestContractForm extends Component {
 }
 
 RequestContractForm.propTypes = {
-  /** "immapers" prop: contain list of iMMAPer for select field used in request contract form [Array] */
+  /** "immapers" prop: contain list of Consultant for select field used in request contract form [Array] */
   immapers: PropTypes.array.isRequired,
   /** "hqOffices" prop: contain list of HQ Office data for select field used in request contract form [Array] */
   hqOffices: PropTypes.array.isRequired,

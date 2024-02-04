@@ -105,7 +105,7 @@ class P11Form8 extends Component {
 		super(props);
 
 		this.state = {
-			
+
 		};
 
 		this.isValid = this.isValid.bind(this);
@@ -256,7 +256,7 @@ class P11Form8 extends Component {
 	render() {
 		let { classes, errors } = this.props;
 		let { cv, photo, linkedin_url, share_profile_consent, hear_about_us_from, other_text } = this.props.form8;
-		
+
 		return (
 			<Grid container spacing={24}>
 				<Grid item xs={12} sm={6}>
@@ -342,7 +342,7 @@ class P11Form8 extends Component {
 						onChange={this.onChange}
 					>
 						<FormControlLabel value="Browsers" control={<Radio />} label="Browsers" />
-						<FormControlLabel value="Our website: immap.org" control={<Radio />} label="Our website: immap.org" />
+						<FormControlLabel value="Our website: 3isolution.org" control={<Radio />} label="Our website: 3isolution.org" />
 						<FormControlLabel value="Social Media (Facebook, Twitter etc…)" control={<Radio />} label="Social Media (Facebook, Twitter etc…)" />
 						<FormControlLabel value="Job boards (LinkedIn, Indeed, WTTJ, Relief Web, Development Aid etc..)" control={<Radio />} label="Job boards (LinkedIn, Indeed, WTTJ, Relief Web, Development Aid etc..)" />
 						<FormControlLabel value="Word of Mouth" control={<Radio />} label="Word of Mouth" />
@@ -426,7 +426,7 @@ const mapDispatchToProps = {
 	setP11FormData,
 	setP11Status,
 	updateP11Status,
-	postAPI	
+	postAPI
 };
 
 /**

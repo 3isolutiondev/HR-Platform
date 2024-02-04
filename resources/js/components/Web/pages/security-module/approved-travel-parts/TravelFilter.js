@@ -52,10 +52,10 @@ class TravelFilter extends React.Component {
   }
 
   render() {
-    const { classes, allTravelTypes, immapUs, immapFrance, sbpRelated, allFromCities, allToCities, 
-             allInCities, fromCities, toCities, inCities, travelTypes, hiddenTrip, showHiddenTrips , 
+    const { classes, allTravelTypes, immapUs, immapFrance, sbpRelated, allFromCities, allToCities,
+             allInCities, fromCities, toCities, inCities, travelTypes, hiddenTrip, showHiddenTrips ,
              showImmapUs, showImmapFrance, showSbpRelated, searchImmaperTemp } = this.props;
-    
+
     return (
       <Card className={classes.card}>
         <CardHeader
@@ -67,7 +67,7 @@ class TravelFilter extends React.Component {
           <TextField
               id="search"
               name="searchImmaper"
-              label="Search iMMAPer"
+              label="Search Consultant"
               fullWidth
               value={searchImmaperTemp}
               onChange={(e) => this.handleSearch(e)}

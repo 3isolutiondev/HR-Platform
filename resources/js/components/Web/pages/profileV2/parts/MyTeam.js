@@ -425,7 +425,7 @@ class MyTeam extends Component {
       rowsPerPageOptions: [],
       rowsPerPage: 2000,
       downloadOptions: {
-        filename: "iMMAPers.csv",
+        filename: "Consultants.csv",
         filterOptions: { useDisplayedColumnsOnly: true }
       }
     };

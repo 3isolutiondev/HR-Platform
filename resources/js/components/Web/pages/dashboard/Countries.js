@@ -371,7 +371,7 @@ class Countries extends Component {
       .catch((err) => {
         this.props.addFlashMessage({
           type: "error",
-          text: "There is an error while updating vehicle filled by iMMAPer",
+          text: "There is an error while updating vehicle filled by Consultant",
         });
       });
   }

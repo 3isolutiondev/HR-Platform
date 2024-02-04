@@ -305,8 +305,8 @@ class SecurityAdvisors extends React.Component {
   // change tab
   tabChange(e, tabValue) {
     this.setState({
-      loadingText: (tabValue == 'immaper') ? 'Loading iMMAPers...' : 'Loading Security Officers...',
-      emptyDataText: (tabValue == 'immaper') ? 'Sorry, No iMMAPer can be found' : 'Sorry, No security officer can be found',
+      loadingText: (tabValue == 'immaper') ? 'Loading Consultants...' : 'Loading Security Officers...',
+      emptyDataText: (tabValue == 'immaper') ? 'Sorry, No Consultant can be found' : 'Sorry, No security officer can be found',
       tabValue
     }, () => this.getData());
   }
@@ -396,7 +396,7 @@ class SecurityAdvisors extends React.Component {
           >
             <Tab label="Country Security Advisors" value="national" />
             <Tab label="Global Security Advisors" value="global" />
-            <Tab label="Assign Country to iMMAPer" value="immaper" />
+            <Tab label="Assign Country to Consultant" value="immaper" />
           </Tabs>
         </Grid>
         {tabValue == 'national' && (
@@ -426,14 +426,14 @@ class SecurityAdvisors extends React.Component {
         {tabValue == 'immaper' && (
           <Grid item xs={12}>
             <MUIDataTable
-              title={'Assign Country to iMMAPer'}
+              title={'Assign Country to Consultant'}
               data={advisors}
               columns={national_columns}
               options={options}
               download={false}
               print={false}
             />
-            <Typography style={{ marginTop: 8, color: 'rgba(0, 0, 0, 0.54)' }}>*notes: only for an iMMAPer who has 'View Other Travel Request' permission only</Typography>
+            <Typography style={{ marginTop: 8, color: 'rgba(0, 0, 0, 0.54)' }}>*notes: only for an Consultant who has 'View Other Travel Request' permission only</Typography>
           </Grid>
         )}
         {/* assign country dialog for country security advisor */}

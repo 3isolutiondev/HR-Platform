@@ -100,7 +100,7 @@ class ContractHistoryModal extends Component {
                         <TableHead>
                             <TableRow>
                                 <CustomTableCell>iMMAP Office</CustomTableCell>
-                                <CustomTableCell>iMMAP Inc</CustomTableCell>
+                                <CustomTableCell>3iSolution</CustomTableCell>
                                 <CustomTableCell>iMMAP France</CustomTableCell>
                                 <CustomTableCell>Project Code</CustomTableCell>
                                 <CustomTableCell>iMMAP Email</CustomTableCell>

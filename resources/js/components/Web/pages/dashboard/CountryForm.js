@@ -301,8 +301,8 @@ class CountryForm extends Component {
 						</Grid>
             <Grid item xs={12}>
 							<YesNoField
-								ariaLabel="Vehicle detail will be filled by iMMAPer?"
-								label="Vehicle detail will be filled by iMMAPer?"
+								ariaLabel="Vehicle detail will be filled by Consultant?"
+								label="Vehicle detail will be filled by Consultant?"
 								value={vehicle_filled_by_immaper === 'yes' ? '1' : '0'}
 								onChange={(e, value) => this.onChange({ target: { name: e.target.name, value: value === '1' ? 'yes' : 'no' } })}
 								name="vehicle_filled_by_immaper"

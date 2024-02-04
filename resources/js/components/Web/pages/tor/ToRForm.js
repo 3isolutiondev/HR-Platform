@@ -883,7 +883,7 @@ class ToRForm extends Component {
 														className={classes.check}
 													/>
 												}
-												label="iMMAP inc."
+												label="3iSolution"
 											/>
 											{!isEmpty(errors.is_immap_inc) ? (
 												<FormHelperText className={classes.noMarginTop}>
@@ -939,7 +939,7 @@ class ToRForm extends Component {
 								<Grid item xs={12} sm={6}>
 									<TextField
 										id="hq_us"
-										label="iMMAP inc. (%)"
+										label="3iSolution (%)"
 										margin="none"
 										fullWidth
 										type="number"

@@ -89,7 +89,7 @@ class BioAddress extends Component {
 		bioAddressData.present_address.present_country = bioAddressData.present_address.present_country.value;
 
 		this.props
-			.postAPI('/api/update-profile-biodata-address-and-nationalities/', bioAddressData)
+			.postAPI('/api/update-profile-biodata-address-and-nationalities', bioAddressData)
 			.then((res) => {
 				this.props.addFlashMessage({
 					type: 'success',

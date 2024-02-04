@@ -130,7 +130,7 @@ class FieldofWorks extends Component {
 		if (isEmpty(errors) && isValid) {
 			this.props.setLoading(true);
 			this.props
-				.postAPI('/api/update-profile-biodata-address-and-nationalities/', this.props.bioAddress)
+				.postAPI('/api/update-profile-biodata-address-and-nationalities', this.props.bioAddress)
 				.then((res) => {
 					this.props.setLoading(false);
 					this.props.addFlashMessage({
@@ -503,7 +503,7 @@ class FieldofWorks extends Component {
 											<Tooltip title={other_text}>
 													<Chip label={other_text} className={classes.chip} />
 											</Tooltip>
-									   :  
+									   :
 											<Tooltip title={hear_about_us_from}>
 													<Chip label={hear_about_us_from} className={classes.chip} />
 											</Tooltip>

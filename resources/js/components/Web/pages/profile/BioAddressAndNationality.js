@@ -145,7 +145,7 @@ class BioAddress extends Component {
 
 		if (isEmpty(errors) && isValid) {
 			this.props
-				.postAPI('/api/update-profile-biodata-address-and-nationalities/', this.props.bioAddress)
+				.postAPI('/api/update-profile-biodata-address-and-nationalities', this.props.bioAddress)
 				.then((res) => {
 					this.props.addFlashMessage({
 						type: 'success',

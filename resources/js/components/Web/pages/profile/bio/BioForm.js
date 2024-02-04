@@ -46,7 +46,7 @@ class BioForm extends Component {
     super(props);
     this.state = {
       src: null,
-      apiURL: '/api/update-profile-biodata/',
+      apiURL: '/api/update-profile-biodata',
       file: {}
     };
     this.onChange = this.onChange.bind(this);

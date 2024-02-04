@@ -114,7 +114,7 @@ const AllProfiles = Loadable({
   delay: 500 // 0.5 seconds
 });
 const ImmaperForm = Loadable({
-  loader: () => import('../pages/dashboard/ImmaperForm'),
+  loader: () => import('../pages/dashboard/iMMAPerForm'),
   loading: LoadingSpinner,
   timeout: 20000, // 20 seconds
   delay: 500 // 0.5 seconds

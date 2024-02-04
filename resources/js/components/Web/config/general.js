@@ -71,7 +71,7 @@ export const securityModuleTARFileCollection = 'security_module_tar_government_f
 //Default params approved travel request for calendar
 export const defaultApprovedTravel = '?date=null&travelTypes[]=INT&travelTypes[]=DOM AIR&travelTypes[]=DOM GROUND&travelTypes[]=DOM AIR AND GROUND';
 export const securityLinkRiskLevels = {
-  title: 'SEC iMMAP Security Risk Levels.docx',
-  link: 'https://immap.sharepoint.com/:w:/s/iMMAPGlobalLibrary/ETPlVNSHDIhPtknA1g0y4gcBCdqzmr-fq5WKbQp44Ub2Yw?e=I89fcd&CID=18072c2f-495e-f5ad-3740-57cc21425fc0'
+  title: '3iSolution Security Risk Levels',
+  link: 'https://3isolution.org'
 }
 

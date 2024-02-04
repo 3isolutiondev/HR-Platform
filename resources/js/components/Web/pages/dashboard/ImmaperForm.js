@@ -33,7 +33,7 @@ import {
 	switchOnChange,
   setImmaper,
 	selectOnChange
-} from '../../redux/actions/dashboard/iMMAPerActions';
+} from '../../redux/actions/dashboard/immaperActions';
 import SelectField from '../../common/formFields/SelectField';
 import SearchField from '../../common/formFields/SearchField';
 import isEmpty from '../../validations/common/isEmpty';

@@ -265,7 +265,7 @@ class UserForm extends Component {
 						<Grid item xs={12}>
 							<TextField
 								id="immap_email"
-								label="iMMAP Email Address"
+								label="3iSolution Email Address"
 								autoComplete="immap_email"
 								margin="normal"
 								fullWidth

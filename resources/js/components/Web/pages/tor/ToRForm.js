@@ -920,7 +920,7 @@ class ToRForm extends Component {
 								<FormControlLabel
 									className={classes.switch}
 									labelPlacement="start"
-									label="Shared Cost Allocation Between iMMAP HQ"
+									label="Shared Cost Allocation Between 3iSolution HQ"
 									control={
 										<Switch
 											id="is_shared"
@@ -971,11 +971,11 @@ class ToRForm extends Component {
 							{ (jobStandard.sbp_recruitment_campaign == "no" && jobStandard.under_sbp_program == "no") &&
 								<Grid item xs={12} sm={6}>
 									<SelectField
-										label="iMMAP Office *"
+										label="3iSolution Office *"
 										options={immap_offices}
 										value={immap_office}
 										onChange={this.selectOnChange}
-										placeholder="Select iMMAP Office"
+										placeholder="Select 3iSolution Office"
 										isMulti={false}
 										name="immap_office"
 										error={errors.immap_office}

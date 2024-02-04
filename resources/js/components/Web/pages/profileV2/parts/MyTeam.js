@@ -262,7 +262,7 @@ class MyTeam extends Component {
         }
       },
       {
-        name: "iMMAP Email",
+        name: "3iSolution Email",
         options: {
           filter: false,
           sort: true,
@@ -315,7 +315,7 @@ class MyTeam extends Component {
         }
       },
       {
-        name: "iMMAP Office",
+        name: "3iSolution Office",
         options: {
           filter: false,
           sort: true,

@@ -50,18 +50,18 @@ class ImmapOfficeForm extends Component {
 				<Helmet>
 					<title>
 						{isEdit ? (
-							APP_NAME + ' - Dashboard > Edit iMMAP Office : ' + country.label
+							APP_NAME + ' - Dashboard > Edit 3iSolution Office : ' + country.label
 						) : (
-							APP_NAME + ' - Dashboard > Add iMMAP Office'
+							APP_NAME + ' - Dashboard > Add 3iSolution Office'
 						)}
 					</title>
 					<meta
 						name="description"
 						content={
 							isEdit ? (
-								APP_NAME + ' Dashboard > Edit iMMAP Office : ' + country.label
+								APP_NAME + ' Dashboard > Edit 3iSolution Office : ' + country.label
 							) : (
-								APP_NAME + ' Dashboard > Add iMMAP Office'
+								APP_NAME + ' Dashboard > Add 3iSolution Office'
 							)
 						}
 					/>
@@ -70,8 +70,8 @@ class ImmapOfficeForm extends Component {
 					<Grid container spacing={16}>
 						<Grid item xs={12}>
 							<Typography variant="h5" component="h3">
-								{isEdit && 'Edit iMMAP Office : ' + country.label}
-								{!isEdit && 'Add iMMAP Office'}
+								{isEdit && 'Edit 3iSolution Office : ' + country.label}
+								{!isEdit && 'Add 3iSolution Office'}
 							</Typography>
 						</Grid>
 						<Grid item xs={12}>

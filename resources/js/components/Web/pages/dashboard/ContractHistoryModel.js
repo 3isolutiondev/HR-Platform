@@ -99,11 +99,11 @@ class ContractHistoryModal extends Component {
                     <Table className={classes.table}>
                         <TableHead>
                             <TableRow>
-                                <CustomTableCell>iMMAP Office</CustomTableCell>
+                                <CustomTableCell>3iSolution Office</CustomTableCell>
                                 <CustomTableCell>3iSolution</CustomTableCell>
                                 <CustomTableCell>iMMAP France</CustomTableCell>
                                 <CustomTableCell>Project Code</CustomTableCell>
-                                <CustomTableCell>iMMAP Email</CustomTableCell>
+                                <CustomTableCell>3iSolution Email</CustomTableCell>
                                 <CustomTableCell>Job Title</CustomTableCell>
                                 <CustomTableCell>Duty Station</CustomTableCell>
                                 <CustomTableCell>Line Manager</CustomTableCell>

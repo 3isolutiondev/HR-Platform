@@ -290,7 +290,7 @@ class iMMAPerBox extends Component {
               {!isEmpty(immap_office) ? (
                 <Grid item xs={12}>
                   <Typography variant="subtitle1" color="secondary">
-                    <Tooltip title="iMMAP Office">
+                    <Tooltip title="3iSolution Office">
                       <FontAwesomeIcon
                         icon={faBuilding}
                         size="lg"

@@ -514,11 +514,11 @@ class RequestContractForm extends Component {
               </Grid>
               <Grid item xs={12} sm={4}>
 							<SelectField
-								label="iMMAP Office *"
+								label="3iSolution Office *"
 								options={immap_offices}
 								value={immap_office}
 								onChange={this.selectOnChange}
-								placeholder="Select iMMAP Office"
+								placeholder="Select 3iSolution Office"
 								isMulti={false}
 								name="immap_office"
 								error={errors.immap_office}

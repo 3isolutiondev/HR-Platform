@@ -65,7 +65,7 @@ const CookiePolicy = ({ classes, setShowCookieConsent }) => (
 		<div className={classes.content}>
 			<h2 className={classes.subtitle}>About this Cookie Policy</h2>
 			<p>
-				This Cookie Policy states why and how iMMAP uses cookies and similar technologies when you visit our
+				This Cookie Policy states why and how 3iSolution uses cookies and similar technologies when you visit our
 				website at{' '}
 				<a href="https://careers.3isolution.org" className={classes.link}  target="_blank">
 					https://careers.3isolution.org

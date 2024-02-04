@@ -40,7 +40,7 @@ class VerifyImmapUser extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			message: 'Please wait while We are verifying Your iMMAP Email.',
+			message: 'Please wait while We are verifying Your 3iSolution Email.',
 			showResend: false,
 			isLoading: true
 		};
@@ -93,7 +93,7 @@ class VerifyImmapUser extends Component {
 					});
 					this.setState({ showResend: false, message: message, isLoading: false });
 				} else {
-					message = 'There is an error while validating your iMMAP email';
+					message = 'There is an error while validating your 3iSolution email';
 					this.props.addFlashMessage({
 						type: 'error',
 						text: message
@@ -139,7 +139,7 @@ class VerifyImmapUser extends Component {
 					<br />
 					{showResend && (
 						<Button variant="contained" disabled={isLoading} fullWidth color="primary" onClick={this.resend}>
-							Resend Verification of iMMAP Email Address{' '}
+							Resend Verification of 3iSolution Email Address{' '}
 							{isLoading && <CircularProgress thickness={5} size={22} className={classes.loading} />}
 						</Button>
 					)}

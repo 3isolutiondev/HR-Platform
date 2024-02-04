@@ -1161,7 +1161,7 @@ class ApplicantCard extends Component {
 					<DialogContent>
 
 						<DialogContentText id="alert-dialog-description">
-            You will be redirected to Microsoft Outlook in order to login with your iMMAP account. Please confirm the invitation after being authenticated.
+            You will be redirected to Microsoft Outlook in order to login with your 3iSolution account. Please confirm the invitation after being authenticated.
             </DialogContentText>
 
 					</DialogContent>

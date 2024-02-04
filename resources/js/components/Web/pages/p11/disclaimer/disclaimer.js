@@ -42,7 +42,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			<br />
 
 			<Typography variant="body1" component="p">
-				iMMAP is an <b>international not-for-profit organization</b> that provides{' '}
+				3iSolution is an <b>international not-for-profit organization</b> that provides{' '}
 				<b>information management services</b> to humanitarian and development organizations, enabling partners
 				to make informed decisions that ultimately provide <b>high-quality targeted assistance</b> to the
 				world’s most vulnerable populations.
@@ -58,7 +58,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				iMMAP has been at the forefront of information management <b>support for humanitarian clusters</b> (UN
+				3iSolution has been at the forefront of information management <b>support for humanitarian clusters</b> (UN
 				and International NGOs): Logistics, WASH, Health, Protection, Education, Nutrition, Camp Management,
 				Protection, Food Security, and Gender-Based Violence.
 			</Typography>
@@ -68,11 +68,11 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				As an Information Management organization, iMMAP is always looking for new talents to welcome into the
+				As an Information Management organization, 3iSolution is always looking for new talents to welcome into the
 				IM Family. Therefore, we developed 3iSolution Careers, an online tool totally built in house thanks to iMMAP
-				personnel. This platform aims to enhance iMMAP operationality and efficiency when it comes to deployment
+				personnel. This platform aims to enhance 3iSolution operationality and efficiency when it comes to deployment
 				and personnel follow-up. An important part of its purpose is to facilitate the recruitment, hiring and
-				onboarding processes but also to invite people to learn more about iMMAP and the opportunities that we
+				onboarding processes but also to invite people to learn more about 3iSolution and the opportunities that we
 				offer. By registering on 3iSolution Careers, you will be able to create your own profile, check job vacancies
 				and apply for our Roster.
 			</Typography>
@@ -80,11 +80,11 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			<Typography variant="body1" component="p">
 				The Roster aims to gather a pool of talented people willing to work with iMMAP. If you apply and your
 				profile is selected as a match for our needs and projects, you will integrate our records and will be
-				the first in line in the selection process when iMMAP opens a new position for one of its numerous
+				the first in line in the selection process when 3iSolution opens a new position for one of its numerous
 				projects around the world. Information Management, GIS, web or tool development, communications,
 				capacity strengthening, project management, field coordination are part of the many job categories
-				present among the iMMAP Family, so if you think your profile and expertise may be interesting assets for
-				iMMAP, apply for the iMMAP Talent Pool and be sure you will be informed as soon as a job position matches
+				present among the 3iSolution Family, so if you think your profile and expertise may be interesting assets for
+				iMMAP, apply for the 3iSolution Talent Pool and be sure you will be informed as soon as a job position matches
 				your profile and expectations.
 			</Typography>
 			<br />
@@ -107,7 +107,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 				We may use this information to ensure that 3iSolution Careers conforms with legal requirements, including
 				equal opportunity laws. In addition to this purpose, the main use of this information will be to enable
 				us to offer you job opportunities matching your profile or filtering users on professional criteria in
-				order to provide a recruitment service always tailored to our users’ needs as well as to iMMAP needs.
+				order to provide a recruitment service always tailored to our users’ needs as well as to 3iSolution needs.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
@@ -131,18 +131,18 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				All the data you will provide on 3iSolution Careers will remain at iMMAP for internal use only and you will
+				All the data you will provide on 3iSolution Careers will remain at 3iSolution for internal use only and you will
 				have the opportunity to ask for the complete deletion of it.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				iMMAP will keep your details up to 5 years starting from the moment you enter the data; you edit your
+				3iSolution will keep your details up to 5 years starting from the moment you enter the data; you edit your
 				profile or apply for a position through 3iSolution Careers. However, deletion of the entirety of your details
 				is possible by contacting the 3iSolution Careers administrator by email at it@immapfr.org.
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				For further details about iMMAP Data Protection please do not hesitate to contact the email address
+				For further details about 3iSolution Data Protection please do not hesitate to contact the email address
 				stated above.
 			</Typography>
 		</DialogContent>
@@ -159,7 +159,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 									onChange={disclaimerOnChange}
 								/>
 							}
-							label="I understand and accept all the terms and conditions described below and allow iMMAP to keep and use my information for internal purposes."
+							label="I understand and accept all the terms and conditions described below and allow 3iSolution to keep and use my information for internal purposes."
 						/>
 					</FormControl>
 				</Grid>

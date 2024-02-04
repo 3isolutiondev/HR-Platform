@@ -204,7 +204,7 @@ class Disabilities extends Component {
 									{edit ? (
 										<YesNoField
 											ariaLabel="Has Disabilities"
-											label="Entry into iMMAP service might require assignment and travel to any area of the world in which the iMMAP might have responsibilities. Would you be ready and willing to engage in air travel and to be deployed to the field in the scope of iMMAP activities? If not, please explain."
+											label="Entry into 3iSolution service might require assignment and travel to any area of the world in which the 3iSolution might have responsibilities. Would you be ready and willing to engage in air travel and to be deployed to the field in the scope of 3iSolution activities? If not, please explain."
 											value={has_disabilities.toString()}
 											onChange={this.yesNoOnChange}
 											name="has_disabilities"

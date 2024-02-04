@@ -90,7 +90,7 @@ class ImmapOffices extends Component {
 					}
 				},
 				{
-					name: 'iMMAP HQ',
+					name: '3iSolution HQ',
 					options: {
 						filter: false,
 						sort: false
@@ -117,7 +117,7 @@ class ImmapOffices extends Component {
 						return (
 							<Btn
 								link="/dashboard/immap-offices/add"
-								btnText="Add New iMMAP Office"
+								btnText="Add New 3iSolution Office"
 								btnStyle="contained"
 								color="primary"
 								size="small"
@@ -287,7 +287,7 @@ class ImmapOffices extends Component {
 				this.getData();
 				this.props.addFlashMessage({
 					type: 'success',
-					text: 'iMMAP Office status updated'
+					text: '3iSolution Office status updated'
 				});
 			})
 			.catch((err) => {});
@@ -301,7 +301,7 @@ class ImmapOffices extends Component {
 				this.getData();
 				this.props.addFlashMessage({
 					type: 'success',
-					text: 'iMMAP Office status updated'
+					text: '3iSolution Office status updated'
 				});
 			})
 			.catch((err) => {});
@@ -337,12 +337,12 @@ class ImmapOffices extends Component {
 		return (
 			<div>
 				<Helmet>
-					<title>{APP_NAME + ' - Dashboard > iMMAP Office List'}</title>
-					<meta name="description" content={APP_NAME + ' Dashboard > iMMAP Office List'} />
+					<title>{APP_NAME + ' - Dashboard > 3iSolution Office List'}</title>
+					<meta name="description" content={APP_NAME + ' Dashboard > 3iSolution Office List'} />
 				</Helmet>
 				<MuiThemeProvider theme={this.getMuiTheme()}>
 					<MUIDataTable
-						title={'iMMAP Office List'}
+						title={'3iSolution Office List'}
 						data={immap_offices}
 						columns={columns}
 						options={options}

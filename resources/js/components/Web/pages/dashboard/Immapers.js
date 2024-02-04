@@ -681,7 +681,7 @@ class iMMAPers extends React.Component {
         },
       },
       {
-        name: "iMMAP Email",
+        name: "3iSolution Email",
         options: {
           filter: false,
           sort: true,
@@ -764,7 +764,7 @@ class iMMAPers extends React.Component {
         },
       },
       {
-        name: "iMMAP Office",
+        name: "3iSolution Office",
         options: {
           filter: true,
           sort: true,

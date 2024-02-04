@@ -30,7 +30,7 @@ import CircleBtn from '../../common/CircleBtn';
 import ProfileModal from '../../common/ProfileModal';
 import ContractHistoryModal from "./ContractHistoryModel";
 import ChangeLineManagerModel from "./ChangeLineManagerModel";
-import IMMAPersFilter from './IMMAPersFilter';
+import ImmapersFilter from './IMMAPersFilter';
 // import AddImmaperForm from './AddImmaperForm';
 import RequestContractForm from './RequestContractForm';
 import RequestContractModal from "../../common/RequestContractModal";
@@ -959,7 +959,7 @@ class iMMAPers extends React.Component {
         </Helmet>
            {width != 'sm' && width != 'xs' && (
               <Grid item xs={12} sm={12} md={3}>
-                 <IMMAPersFilter setLoadingImmapers={this.setLoadingImmapers}  />
+                 <ImmapersFilter setLoadingImmapers={this.setLoadingImmapers}  />
               </Grid>
             )}
             <Grid
@@ -1059,7 +1059,7 @@ class iMMAPers extends React.Component {
             }}
           >
             <div className={classes.mobileFilter}>
-              <IMMAPersFilter setLoadingImmapers={this.setLoadingImmapers}  />
+              <ImmapersFilter setLoadingImmapers={this.setLoadingImmapers}  />
             </div>
           </Drawer>
 				)}

@@ -30,7 +30,7 @@ import CircleBtn from '../../common/CircleBtn';
 import ProfileModal from '../../common/ProfileModal';
 import ContractHistoryModal from "./ContractHistoryModel";
 import ChangeLineManagerModel from "./ChangeLineManagerModel";
-import ImmapersFilter from './IMMAPersFilter';
+import ImmapersFilter from './ImmapersFilter';
 // import AddImmaperForm from './AddImmaperForm';
 import RequestContractForm from './RequestContractForm';
 import RequestContractModal from "../../common/RequestContractModal";

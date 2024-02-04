@@ -43,7 +43,7 @@ import { APP_NAME } from '../../config/general';
 import { white } from '../../config/colors';
 import { can } from '../../permissions/can';
 
-class IMMAPerForm extends Component {
+class ImmaperForm extends Component {
 
 	constructor(props) {
 		super(props);
@@ -508,7 +508,7 @@ const mapStateToProps = (state) => ({
 	roles: state.options.roles,
 });
 
-IMMAPerForm.propTypes = {
+ImmaperForm.propTypes = {
 	immaperData: PropTypes.object.isRequired,
 	setFormIsEdit: PropTypes.func.isRequired,
 	classes: PropTypes.object.isRequired,
@@ -526,4 +526,4 @@ IMMAPerForm.propTypes = {
 	roles: PropTypes.array.isRequired
 };
 
-export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(withRouter(IMMAPerForm)));
+export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(withRouter(ImmaperForm)));

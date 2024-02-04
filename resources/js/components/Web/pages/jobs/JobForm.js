@@ -103,7 +103,7 @@ class JobForm extends Component {
       popUpStatus: false,
       changeStatusLoading: false,
       tempJobStatus: false, manager_id:[],
-      closeSurgeAlert:  { value: 'filled-by-iMMAP', label: 'Close the Alert (Position filled by 3iSolution)' },
+      closeSurgeAlert:  { value: 'filled-by-iMMAP', label: 'Close the Alert (Position filled by iMMAP)' },
       savedStatus: 0
     };
 
@@ -275,7 +275,8 @@ class JobForm extends Component {
         jobURL: '/api/jobs',
         redirectURL: '/jobs',
         formTitle: 'Add Job',
-        closeSurgeAlert:  { value: 'filled-by-iMMAP', label: 'Close the Alert (Position filled by 3iSolution)' },
+        isEdit: false,
+        closeSurgeAlert:  { value: 'filled-by-iMMAP', label: 'Close the Alert (Position filled by iMMAP)' },
         use_test_step: 0,
         test_step_position: { value: 'before', label: 'Before Interview Step' }
       })
@@ -703,11 +704,11 @@ class JobForm extends Component {
               { tor.sbp_recruitment_campaign === "no" && tor.under_sbp_program === "no" &&
                 <Grid item xs={12} sm={3}>
                   <SelectField
-                    label="3iSolution Office *"
+                    label="iMMAP Office *"
                     options={immap_offices}
                     value={immap_office}
                     onChange={this.selectOnChange}
-                    placeholder="Select 3iSolution Office"
+                    placeholder="Select iMMAP Office"
                     isMulti={false}
                     name="immap_office"
                     error={errors.immap_office}
@@ -818,7 +819,7 @@ class JobForm extends Component {
                   </Grid>
                   <Grid item xs={12} sm={12}>
                     <SelectField
-                      label="Disable editing/admin rights related to this position for the following 3iSolution members:"
+                      label="Disable editing/admin rights related to this position for the following iMMAP members:"
                       options={immapers}
                       value={exclude_immaper}
                       onChange={this.selectOnChange}

@@ -161,7 +161,7 @@ class P11Form2 extends React.Component {
 					<Grid item xs={12}>
 						<YesNoField
 							ariaLabel="previously_submitted_application_for_UN"
-							label="Have you previously worked for 3iSolution?"
+							label="Have you previously worked for iMMAP?"
 							value={previously_submitted_application_for_UN.toString()}
 							onChange={this.yesNoOnChange}
 							name="previously_submitted_application_for_UN"

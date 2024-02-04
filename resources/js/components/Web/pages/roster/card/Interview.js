@@ -326,7 +326,7 @@ class Interview extends Component {
 		}
 
 		if (isEmpty(immaper_invite) && !this.props.is3Heads) {
-			errors.immaper_invite = '3iSolutioner for interview is required';
+			errors.immaper_invite = 'iMMAPer for interview is required';
 		}
 
 		if (isEmpty(interview_timezone)) {
@@ -399,11 +399,11 @@ class Interview extends Component {
 		  {!this.props.is3Heads && (
 			<Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
 				<SelectField
-				label="Select Consultant for join interview *"
+				label="Select iMMAPer for join interview *"
 				options={immapers}
 				value={immaper_invite}
 				onChange={this.selectOnChange}
-				placeholder="Select Consultant"
+				placeholder="Select iMMAPer"
 				name="immaper_invite"
 				error={errors.immaper_invite}
 				required
@@ -512,7 +512,7 @@ class Interview extends Component {
               <DialogContent>
 
                 <DialogContentText id="alert-dialog-description">
-                You will be redirected to Microsoft Outlook in order to login with your 3iSolution account. Please confirm the invitation after being authenticated.
+                You will be redirected to Microsoft Outlook in order to login with your iMMAP account. Please confirm the invitation after being authenticated.
                 </DialogContentText>
 
               </DialogContent>

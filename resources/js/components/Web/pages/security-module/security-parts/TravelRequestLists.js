@@ -112,7 +112,7 @@ class TravelRequestLists extends React.Component {
                     <Typography color="secondary" variant="subtitle2" className={classes.addSmallMarginBottom}>{request.name}</Typography>
                   </Grid>
                   <Grid item xs={12} sm={6} md={6} lg={2}>
-                    <Typography color="primary" variant="subtitle2" className={columnClass}>Consultant</Typography>
+                    <Typography color="primary" variant="subtitle2" className={columnClass}>iMMAPer</Typography>
                     <Typography color="secondary" variant="subtitle2" className={classes.addSmallMarginBottom}>{request.immaper}</Typography>
                   </Grid>
                   <Grid item xs={12} sm={6} md={6} lg={2}>

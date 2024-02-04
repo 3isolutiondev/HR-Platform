@@ -54,7 +54,7 @@ class P11Form6 extends Component {
 			.then((res) => {
 				if(res.data.data.reference_notice_read === 1) {
 					this.setState({reference_notice_read: true})
-				}
+				}					
 				if (res.data.data.relevant_facts === null) {
 					res.data.data.relevant_facts = '';
 				}
@@ -101,7 +101,7 @@ class P11Form6 extends Component {
 							<b>References</b>: List your previous three line managers.
 							<br />
 							{/* <b>Do not repeat names of supervisors listed in employment record</b> */}
-							If you are selected for a vacancy or accepted as a member of our roster we will perform a mandatory reference check based on the information provided here. By adding your references you consent to 3iSolution contacting them.
+							If you are selected for a vacancy or accepted as a member of our roster we will perform a mandatory reference check based on the information provided here. By adding your references you consent to iMMAP contacting them.
 						</FormLabel>
 						<br />
 						<ReferencesList

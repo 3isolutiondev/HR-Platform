@@ -221,7 +221,7 @@ class P11Form3Old extends Component {
 					<Grid item xs={12}>
 						<YesNoField
 							ariaLabel="Relatives Employed by Public International Organization"
-							label="Are any of your relatives currently employed by 3iSolution? If “yes”, please provide the following information:"
+							label="Are any of your relatives currently employed by iMMAP? If “yes”, please provide the following information:"
 							value={relatives_employed_by_public_international_organization.toString()}
 							onChange={this.yesNoOnChange}
 							name="relatives_employed_by_public_international_organization"

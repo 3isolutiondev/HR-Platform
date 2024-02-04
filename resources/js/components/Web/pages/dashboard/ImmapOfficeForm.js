@@ -50,18 +50,18 @@ class ImmapOfficeForm extends Component {
 				<Helmet>
 					<title>
 						{isEdit ? (
-							APP_NAME + ' - Dashboard > Edit 3iSolution Office : ' + country.label
+							APP_NAME + ' - Dashboard > Edit iMMAP Office : ' + country.label
 						) : (
-							APP_NAME + ' - Dashboard > Add 3iSolution Office'
+							APP_NAME + ' - Dashboard > Add iMMAP Office'
 						)}
 					</title>
 					<meta
 						name="description"
 						content={
 							isEdit ? (
-								APP_NAME + ' Dashboard > Edit 3iSolution Office : ' + country.label
+								APP_NAME + ' Dashboard > Edit iMMAP Office : ' + country.label
 							) : (
-								APP_NAME + ' Dashboard > Add 3iSolution Office'
+								APP_NAME + ' Dashboard > Add iMMAP Office'
 							)
 						}
 					/>

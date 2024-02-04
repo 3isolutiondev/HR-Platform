@@ -220,7 +220,7 @@ class Sidebar extends Component {
               <ListItemIcon className={classes.icon}>
                 <FontAwesomeIcon icon={faUsers} size="lg" className={classes.fontAwesome} />
               </ListItemIcon>
-              <ListItemText primary="Consultant" />
+              <ListItemText primary="iMMAPer" />
             </ListItem>
           )}
           {can('Index Role') && (

@@ -412,7 +412,7 @@ class ApplicantCardHistory extends Component {
 									allowEditTest={false}
 								/>
 							</Grid>
-						}
+						}		
 					</Grid>
 					{can('View Applicant Profile') && isInterview && <hr className={classes.interviewDivider} />}
 					{(can('View Applicant Profile') &&
@@ -472,11 +472,11 @@ class ApplicantCardHistory extends Component {
 						<Grid container spacing={16} alignItems="center">
 							<Grid item xs={12} md={12} lg={12}>
 								<SelectField
-									label="Select Consultant for join interview *"
+									label="Select iMMAPer for join interview *"
 									options={immapers}
 									value={immaper_invite}
 									onChange={this.selectOnChange}
-									placeholder="Select Consultant"
+									placeholder="Select iMMAPer"
 									name="immaper_invite"
 									error={errors.immaper_invite}
 									required

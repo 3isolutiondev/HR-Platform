@@ -225,7 +225,7 @@ export function validateP11Form1(data) {
   // }
 
   if (validator.isEmpty(is_immaper)) {
-    errors.is_immaper = "Already Consultant is required";
+    errors.is_immaper = "Already iMMAPer is required";
   } else if (!validator.isBoolean(is_immaper)) {
     errors.is_immaper = "Invalid data format";
   }

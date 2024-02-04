@@ -191,7 +191,7 @@ class HRFilter extends Component {
 							)}
 						</FormControl>
 						<FormControl margin="normal" fullWidth error={!isEmpty(errors.job_status) ? true : false}>
-							<FormLabel>Consultant</FormLabel>
+							<FormLabel>iMMAPer</FormLabel>
 							<FormGroup row>
 								{immaper_filter.map((immaperFilter) => (
 									<FormControlLabel

@@ -208,7 +208,7 @@ class BasicBio extends React.Component {
 						<div className={classname(classes.namePhoto, classes.immaperBox)}>
 							{immap_email ? (
 								<Typography variant="h6" color="primary">
-									<img src={mainLogo} alt="immap career" className={classes.imgLogo} /> Consultant
+									<img src={mainLogo} alt="immap career" className={classes.imgLogo} /> iMMAPer
 								</Typography>
 							) : (
 								<Skeleton />

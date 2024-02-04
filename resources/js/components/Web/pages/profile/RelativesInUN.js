@@ -147,7 +147,7 @@ class RelativesInUN extends Component {
 							<Grid container>
 								<Grid item xs={11} sm={8} md={9} lg={11} xl={11}>
 									<Typography variant="h6" color="primary">
-										Your relatives employed by a 3iSolution
+										Your relatives employed by a iMMAP
 									</Typography>
 								</Grid>
 								{editable ? (

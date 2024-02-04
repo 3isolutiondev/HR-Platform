@@ -31,7 +31,7 @@ import {
 	onChange,
 	setFormIsEdit,
 	switchOnChange,
-  setImmaper,
+	setImmaper,
 	selectOnChange
 } from '../../redux/actions/dashboard/immaperActions';
 import SelectField from '../../common/formFields/SelectField';
@@ -43,7 +43,7 @@ import { APP_NAME } from '../../config/general';
 import { white } from '../../config/colors';
 import { can } from '../../permissions/can';
 
-class ConsultantForm extends Component {
+class ImmaperForm extends Component {
 
 	constructor(props) {
 		super(props);
@@ -105,7 +105,7 @@ class ConsultantForm extends Component {
 	}
 
 	componentDidMount() {
-		if (can('Edit Consultant roles')) {
+		if (can('Edit Immaper roles')) {
 			this.props.getRoles();
 		}
 		this.props.getImmapOffices();
@@ -120,7 +120,7 @@ class ConsultantForm extends Component {
 		const {
 			classes,
 			errors,
-			ConsultantData,
+			immaperData,
 			switchOnChange,
 			onChange,
 			dateOnChange,
@@ -149,7 +149,7 @@ class ConsultantForm extends Component {
 			under_sbp_program,
 			role,
 			project_code,
-		} = ConsultantData;
+		} = immaperData;
 
 		const { managerSearch, managerSearchLoading } = this.state;
 		return (
@@ -177,8 +177,8 @@ class ConsultantForm extends Component {
 					<Grid container spacing={16} alignItems="flex-end">
 						<Grid item xs={12} sm={12}>
 							<Typography variant="h5" component="h3">
-								{isEdit && 'Edit Consultant : ' + full_name}
-								{!isEdit && 'Add Consultant'}
+								{isEdit && 'Edit iMMAPer : ' + full_name}
+								{!isEdit && 'Add iMMAPer'}
 							</Typography>
 						</Grid>
 
@@ -194,7 +194,7 @@ class ConsultantForm extends Component {
 											className={classes.check}
 										/>
 									}
-									label="3iSolution"
+									label="iMMAP inc."
 								/>
 							</FormControl>
 							<FormControl margin="none">
@@ -219,7 +219,7 @@ class ConsultantForm extends Component {
 						<Grid item xs={12} sm={4}>
 							<TextField
 								fullWidth
-								label="3iSolution Email"
+								label="iMMAP Email"
 								id="immap_email"
 								name="immap_email"
 								margin="none"
@@ -316,13 +316,13 @@ class ConsultantForm extends Component {
 								margin="none"
 							/>
 						</Grid>
-						<Grid item xs={12} sm={can('Edit Consultant roles') ? 4 : 6}>
+						<Grid item xs={12} sm={can('Edit Immaper roles') ? 4 : 6}>
 							<SelectField
-								label="3iSolution Office *"
+								label="iMMAP Office *"
 								options={immap_offices}
 								value={immap_office}
 								onChange={selectOnChange}
-								placeholder="Select 3iSolution Office"
+								placeholder="Select iMMAP Office"
 								isMulti={false}
 								name="immap_office"
 								error={errors.immap_office}
@@ -331,7 +331,7 @@ class ConsultantForm extends Component {
 								margin="none"
 							/>
 						</Grid>
-						{ can('Edit Consultant roles') &&
+						{ can('Edit Immaper roles') &&
 							<Grid item xs={12} sm={4}>
 								<SelectField
 									label="Roles"
@@ -348,7 +348,7 @@ class ConsultantForm extends Component {
 								/>
 							</Grid>
 						}
-						<Grid item xs={12} sm={can('Edit Consultant roles') ? 4 : 6}>
+						<Grid item xs={12} sm={can('Edit Immaper roles') ? 4 : 6}>
 							<TextField
 								fullWidth
 								label="Project Code"
@@ -366,7 +366,7 @@ class ConsultantForm extends Component {
 								label="Are you under international contract?"
 								value={immap_contract_international.toString()}
 								onChange={() =>
-                  setImmaper(
+									setImmaper(
 										'immap_contract_international',
 										immap_contract_international.toString() == 1 ? 0 : 1
 									)}
@@ -380,7 +380,7 @@ class ConsultantForm extends Component {
 								label="Working under Surge Program?"
 								value={under_sbp_program.toString()}
 								onChange={() =>
-                  setImmaper(
+									setImmaper(
 										'under_sbp_program',
 										under_sbp_program.toString() == 1 ? 0 : 1
 									)}
@@ -485,7 +485,7 @@ const mapDispatchToProps = {
 	switchOnChange,
 	dateOnChange,
 	onSubmit,
-  setImmaper,
+	setImmaper,
 	onChange,
 	setFormIsEdit,
 	getImmapOffices,
@@ -500,16 +500,16 @@ const mapDispatchToProps = {
  * @returns {object} all needed state data inside reducer that are mapped as a prop to be used in the component
  */
 const mapStateToProps = (state) => ({
-	ConsultantData: state.dashboardConsultant,
-	errors: state.dashboardConsultant.errors,
-	isValid: state.dashboardConsultant.isValid,
+	immaperData: state.dashboardImmaper,
+	errors: state.dashboardImmaper.errors,
+	isValid: state.dashboardImmaper.isValid,
 	immap_offices: state.options.immapOffices,
 	lineManagers: state.options.lineManagers || [],
 	roles: state.options.roles,
 });
 
-ConsultantForm.propTypes = {
-	ConsultantData: PropTypes.object.isRequired,
+ImmaperForm.propTypes = {
+	immaperData: PropTypes.object.isRequired,
 	setFormIsEdit: PropTypes.func.isRequired,
 	classes: PropTypes.object.isRequired,
 	switchOnChange: PropTypes.func.isRequired,
@@ -518,7 +518,7 @@ ConsultantForm.propTypes = {
 	getRoles: PropTypes.func.isRequired,
 	getImmapOffices: PropTypes.func.isRequired,
 	dateOnChange: PropTypes.func.isRequired,
-  setImmaper: PropTypes.func.isRequired,
+	setImmaper: PropTypes.func.isRequired,
 	selectOnChange: PropTypes.func.isRequired,
 	errors: PropTypes.object,
 	immap_offices: PropTypes.array,
@@ -526,4 +526,4 @@ ConsultantForm.propTypes = {
 	roles: PropTypes.array.isRequired
 };
 
-export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(withRouter(ConsultantForm)));
+export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(withRouter(ImmaperForm)));

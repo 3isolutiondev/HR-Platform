@@ -132,7 +132,7 @@ class PreviouslySubmittedInUN extends Component {
 								<Grid item xs={11} sm={8} md={9} lg={11} xl={11}>
 									<Typography variant="h6" color="primary">
 										{/* Previously submitted an application for employment with U.N. */}
-										Previously worked with 3iSolution
+										Previously worked with iMMAP
 									</Typography>
 								</Grid>
 								{editable ? (

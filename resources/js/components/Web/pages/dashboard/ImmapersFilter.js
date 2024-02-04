@@ -88,7 +88,7 @@ class ImmapersFilter extends Component {
   }
 
   /**
-   * getFiltersData is a function to get all fliter data
+   * getFiltersData is a function to get all fliter data 
    */
   getFiltersData() {
     this.props
@@ -164,7 +164,7 @@ class ImmapersFilter extends Component {
               error={!isEmpty(errors.search)}
               helperText={errors.search}
               autoFocus={false}
-            />
+            />  
             <FormControl
                 margin="normal"
                 className={classes.contractStatusFormControl}
@@ -300,7 +300,7 @@ class ImmapersFilter extends Component {
                 fullWidth
                 error={!isEmpty(errors.immap_office) ? true : false}
             >
-                <FormLabel>3iSolution Officer</FormLabel>
+                <FormLabel>iMMAP Officer</FormLabel>
                 <FormGroup>
                   {immapOfficeFilters.length > 0 &&
                     immapOfficeFilters.map((office, index) => {

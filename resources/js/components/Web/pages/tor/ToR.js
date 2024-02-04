@@ -207,10 +207,10 @@ class ToR extends Component {
 				await this.props.AddtabValue('tabs', data);
 				if(!isEmpty(valuesQueryString)) {
 					await this.props.onChange({tab: Number(valuesQueryString['tabValue']), page: '1'});
-					await this.getTorData();
+					await this.getTorData();	
 				} else {
 					await this.props.onChange({tab: firstJobStandard.job_standard_id, page: '1'});
-					await this.getTorData();
+					await this.getTorData();	
 				}
 			})
 			.catch((err) => {
@@ -231,7 +231,7 @@ class ToR extends Component {
 	dataToArray(jsonData) {
 		const { classes, tabFilterTor } = this.props;
 		const { duplicatingLoading,  torIndex } = this.state;
-
+		
 		let dataInArray = jsonData.map((data, index) => {
 			let dataTemp = [
 				data.id,
@@ -331,7 +331,7 @@ class ToR extends Component {
 	toggleFilterMobile() {
 		this.setState({ filterMobile: this.state.filterMobile ? false : true });
 	}
-
+	
 	/**
    * setLoadingJob is a function to show / hide loading text
    * @param {Boolean} loading
@@ -394,7 +394,7 @@ class ToR extends Component {
     let tabData = tabs.find(
       (dt) => dt.job_standard_id === tabValue
     );
-
+    
     this.props.onChange({ tab: tabData.job_standard_id }).then(() => {
         if (isFilter) {
 			this.props.postAPI(this.state.apiURL + '/' + tabData.job_standard_id + '/all', filterData)
@@ -471,7 +471,7 @@ class ToR extends Component {
 		if (!('job_status' in valuesQueryString)) {
 		  this.props.onChangeTorPageFilter('job_status', [])
 		}
-
+	
 		// querystring map
 		Object.keys(valuesQueryString).map(key => {
 		  if (key === "search") {
@@ -505,7 +505,7 @@ class ToR extends Component {
 		const { tabFilterTor, classes, width } = this.props;
 		const { tabValue, tabs } = tabFilterTor;
 		let tabData = tabs.find((dt) => dt.job_standard_id === tabValue);
-
+		
 		const options = {
 			responsive: 'scroll',
 			filterType: 'checkbox',
@@ -564,7 +564,7 @@ class ToR extends Component {
 
 		let sbpTab = typeof tabData != "undefined" ? tabData.sbp_recruitment_campaign : 'no';
 		let alertTab = typeof tabData != "undefined" ? tabData.under_sbp_program : 'no';
-
+		
 		return (
 			<Grid container spacing={24}>
 				<Helmet>
@@ -790,6 +790,7 @@ const mapStateToProps = (state) => ({
 	id: state.torForm.id,
 	tabFilterTor: state.tabFilterTor,
 	torPageFilter: state.torPageFilter,
+	tabFilterTor: state.tabFilterTor
 });
 
 /**

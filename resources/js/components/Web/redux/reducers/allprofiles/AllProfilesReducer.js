@@ -33,12 +33,12 @@ const initialState = {
   chosen_country_of_residence: '',
   is_available: [],
   gender_filter: [
-    { value: 'male', label: 'Male' },
-    { value: 'female', label: 'Female' },
-    { value: 'do_not_want_specify', label:'Do not want to specify' },
+    { value: 'male', label: 'Male' }, 
+    { value: 'female', label: 'Female' }, 
+    { value: 'do_not_want_specify', label:'Do not want to specify' }, 
     { value: 'other', label: 'Other' }
   ],
-  immaper_filter: [{ value: 'is_immaper', label: 'Consultant' }, { value: 'not_immaper', label: 'Not Consultant' }],
+  immaper_filter: [{ value: 'is_immaper', label: 'iMMAPer' }, { value: 'not_immaper', label: 'Not iMMAPer' }],
   available_filter: [
     { value: 'available', label: 'Available' },
     { value: 'not_available', label: 'Not Available' }

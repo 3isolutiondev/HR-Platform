@@ -21,7 +21,7 @@ return [
         'updateP11Status'   => 'There is an error while updating P11 Status value',
         'roster_close'      => 'Sorry, We are not opening roster application at this moment',
         'contact_request'   => 'The Job request contract is not found for this user',
-        'user_already_immaper'   => 'This User is already an Consultant',
-        'not_an_immaper'   => 'This User is not an Consultant',
+        'user_already_immaper'   => 'This User is already an iMMAPer',
+        'not_an_immaper'   => 'This User is not an iMMAPer',
     ]
 ];

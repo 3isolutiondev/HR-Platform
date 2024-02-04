@@ -163,7 +163,7 @@ class AddImmaperForm extends Component {
 											className={classes.check}
 										/>
 									}
-									label="3iSolution inc."
+									label="iMMAP inc."
 								/>
 							</FormControl>
 							<FormControl margin="none">
@@ -177,7 +177,7 @@ class AddImmaperForm extends Component {
 											className={classes.check}
 										/>
 									}
-									label="3iSolution"
+									label="iMMAP France"
 								/>
 							</FormControl>
 							{!isEmpty(errors.is_immap_headquarter) && (
@@ -186,11 +186,11 @@ class AddImmaperForm extends Component {
 						</Grid>
 						<Grid item xs={12} sm={6} md={6}>
 							<SelectField
-								label="3iSolution Office *"
+								label="iMMAP Office *"
 								options={immap_offices}
 								value={immap_office}
 								onChange={(value, e) => this.props.onChange([e.name], value, true)}
-								placeholder="Select 3iSolution Office"
+								placeholder="Select iMMAP Office"
 								isMulti={false}
 								name="immap_office"
 								error={errors.immap_office}
@@ -215,7 +215,7 @@ class AddImmaperForm extends Component {
 						<Grid item xs={12} sm={6} md={4}>
 							<TextField
 								fullWidth
-								label="3iSolution Email"
+								label="iMMAP Email"
 								id="immap_email"
 								name="immap_email"
 								margin="none"

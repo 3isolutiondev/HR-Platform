@@ -112,7 +112,7 @@ class iMMAPerBox extends Component {
                 ? classname(classes.titleSection, classes.titleBorder)
                 : classes.titleSection
             }
-          > {moment(end_of_current_contract)  < moment.now() ? 'Was Consultant?' : 'Already Consultant?'}
+          > {moment(end_of_current_contract)  < moment.now() ? 'Was iMMAPer?' : 'Already iMMAPer?'}
 
             {is_immaper === 1 ? (
               <FontAwesomeIcon

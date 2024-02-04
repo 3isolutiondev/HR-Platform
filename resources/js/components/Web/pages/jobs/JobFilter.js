@@ -201,7 +201,7 @@ class JobFilter extends Component {
                </FormControl>
             }
 
-            {tabValue != 4 &&
+            {tabValue != 4 && 
               <FormControl
               margin="normal"
               className={classes.countryFormControl}
@@ -399,7 +399,7 @@ class JobFilter extends Component {
                 fullWidth
                 error={!isEmpty(errors.choosen_immap_office) ? true : false}
               >
-                <FormLabel>3iSolution Office</FormLabel>
+                <FormLabel>iMMAP Office</FormLabel>
                 <FormGroup>
                   {(!isEmpty(immap_offices) && immap_offices.length) &&
                     immap_offices.length > 0 &&

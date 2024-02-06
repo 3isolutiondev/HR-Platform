@@ -122,7 +122,6 @@ class P11PhoneController extends Controller
      **/
     public function store(Request $request)
     {
-        dd($request->all());
         $this->validate($request, $this->rules);
 
         $recordData = $request->only($this->fillable);

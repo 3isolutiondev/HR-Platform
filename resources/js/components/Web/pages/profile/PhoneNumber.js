@@ -239,7 +239,6 @@ class PhoneNumber extends Component {
 PhoneNumber.propTypes = {
 	getAPI: PropTypes.func.isRequired,
 	deleteAPI: PropTypes.func.isRequired,
-	deleteAPI: PropTypes.func.isRequired,
 	getPhoneNumber: PropTypes.func.isRequired
 };
 

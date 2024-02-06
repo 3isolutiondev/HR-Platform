@@ -69,10 +69,10 @@ Route::namespace('API')->group(function () {
 
     // Post reference check file
     Route::post('p11-update-reference-file', 'AttachmentController@update_reference_file');
-    
+
     // Post job reference check file
     Route::post('job-p11-update-reference-file', 'AttachmentController@job_update_reference_file');
-    
+
     // Post verify reference check url
     Route::post('p11-verify-reference', 'Roster\RosterController@referenceCheckVerifyCode');
     Route::post('job-p11-verify-reference', 'JobController@referenceCheckVerifyCode');
@@ -829,7 +829,7 @@ Route::namespace('API')->group(function () {
             Route::delete('reference-check/delete-question/{id}', 'Userreference\ReferencecheckController@destroyquestion')->where('id', '[0-9]+')->middleware('permission:Delete Reference Check|Set as Admin');
             Route::get('reference-question-category/all-options', 'Userreference\ReferencecheckController@allOptions');
             Route::get('reference-check-history/{profile_id}', 'ReferenceHistoryController@get')->where('profile_id', '[0-9]+')->middleware('permission:Set as Admin');
-            
+
             //Question Reference
             //
 

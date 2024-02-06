@@ -37,7 +37,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 		</DialogTitle>
 		<DialogContent>
 			<Typography variant="h6" component="h6" color="primary">
-				iMMAP
+				3iSolution
 			</Typography>
 			<br />
 
@@ -69,7 +69,7 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			<br />
 			<Typography variant="body1" component="p">
 				As an Information Management organization, 3iSolution is always looking for new talents to welcome into the
-				IM Family. Therefore, we developed 3iSolution Careers, an online tool totally built in house thanks to iMMAP
+				IM Family. Therefore, we developed 3iSolution Careers, an online tool totally built in house thanks to 3iSolution
 				personnel. This platform aims to enhance 3iSolution operationality and efficiency when it comes to deployment
 				and personnel follow-up. An important part of its purpose is to facilitate the recruitment, hiring and
 				onboarding processes but also to invite people to learn more about 3iSolution and the opportunities that we
@@ -78,13 +78,13 @@ const Disclaimer = ({ classes, disclaimer_agree, disclaimer_open, disclaimerOnCh
 			</Typography>
 			<br />
 			<Typography variant="body1" component="p">
-				The Roster aims to gather a pool of talented people willing to work with iMMAP. If you apply and your
+				The Roster aims to gather a pool of talented people willing to work with 3iSolution. If you apply and your
 				profile is selected as a match for our needs and projects, you will integrate our records and will be
 				the first in line in the selection process when 3iSolution opens a new position for one of its numerous
 				projects around the world. Information Management, GIS, web or tool development, communications,
 				capacity strengthening, project management, field coordination are part of the many job categories
 				present among the 3iSolution Family, so if you think your profile and expertise may be interesting assets for
-				iMMAP, apply for the 3iSolution Talent Pool and be sure you will be informed as soon as a job position matches
+        3iSolution, apply for the 3iSolution Talent Pool and be sure you will be informed as soon as a job position matches
 				your profile and expectations.
 			</Typography>
 			<br />

@@ -16,6 +16,8 @@
 /public/*.worker.js
 /public/*.worker.js.map
 /public/frontend-docs
+/public/.DS_Store
+/resources/.DS_Store
 /storage/api-docs
 /storage/frontend-docs
 /storage/backup-folder

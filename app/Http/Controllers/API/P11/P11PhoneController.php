@@ -122,7 +122,8 @@ class P11PhoneController extends Controller
      **/
     public function store(Request $request)
     {
-        $validatedData = $this->validate($request, $this->rules);
+        dd($request->all());
+        $this->validate($request, $this->rules);
 
         $recordData = $request->only($this->fillable);
         $recordData['profile_id'] = $this->authProfileId;

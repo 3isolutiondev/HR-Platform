@@ -15,9 +15,9 @@
                         </a>
                     </p>
                     <p>3iSolution Is an international not-for-profit organization</p>
-                    <p style="margin-top:20px">1300 Pennsylvania Avenue, N.W., Suite 470 Washington DC 20004 <br />10 rue Stanislas Torrents, 13006 Marseille, France </p>
-                    <p style="margin-top:20px"><a style="color:white" href="https://mywebsite.org">3isolution.org</a> |
-                       <a style="color:white" href="mailto:info@organization.org">info@organization.org </a>
+                    <p style="margin-top:20px">5 rue Saint Jacques, 13006 Marseille, France</p>
+                    <p style="margin-top:20px"><a style="color:white" href="https://3isolution.or">3isolution.org</a> |
+                       <a style="color:white" href="mailto:contact@3isolution.org">contact@3isolution.org</a>
                     </p>
                 </td>
             </tr>

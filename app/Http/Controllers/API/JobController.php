@@ -4130,9 +4130,9 @@ class JobController extends Controller
         }
 
         $profile = Profile::find($record->profile_id);
-        if ($record->under_surge_program == true) {
+        /*if ($record->under_surge_program == true) {
             array_push($hiringManagerEmails, 'surge@organization.org');
-        }
+        }*/
 
         if (!empty($emails)) {
             $emails = explode("\n", $emails->value);
@@ -4166,7 +4166,7 @@ class JobController extends Controller
                 ));
             }
 
-            $this->sendContractToShirePoint($record);
+            //$this->sendContractToShirePoint($record);
 
             $record->fill(['request_status' => 'sent'])->save();
 
